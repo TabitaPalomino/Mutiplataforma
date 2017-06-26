@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="maestra.master.cs" Inherits="Final.maestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Usil For Live</title>
+    <link href="estilo.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <header>
+        <section id="izquierda">
+            <img id="logo" src="http://i66.tinypic.com/2vah4zt.jpg" />
+        </section>
+
+        <section id="derecha">
+            <a href="#">Catalogue</a>           &nbsp;     &nbsp; 
+           
+            <a href="#">Samples</a>             &nbsp;     &nbsp; 
+           
+            <a href="#">About Us</a>            &nbsp;     &nbsp; 
+           
+            <a href="#">Contact Us</a>          &nbsp;     &nbsp; 
+           
+            <a href="#">Login & Register</a>    &nbsp;     &nbsp; 
+           
+        </section>
+    </header>
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <div class="division"></div>
+
+    <footer>
+        <div id="contenedor">
+
+            <div id="Primera" class="footermenu">
+                <h1>VIEW OUR CATALOGUE</h1>
+                <ul>
+                    <li><a href="#">Básico</a></li>
+                    <li><a href="#">Intermedio</a></li>
+                    <li><a href="#">Avanzado</a></li>
+                </ul>
+            </div>
+
+            <div id="Segunda" class="footermenu">
+                <h1>LEARNING TOOLS</h1>
+                <ul>
+                    <li><a href="#">Dictionaries</a></li>
+                    <li><a href="#">Exams</a></li>
+                    <li><a href="#">Digital Tools</a></li>
+                </ul>
+            </div>
+
+            <div id="Tercera" class="footermenu">
+                <h1>CONTACT US</h1>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div id="Cuarta" class="footermenu">
+                <h1>ABOUT US</h1>
+                <ul>
+                    <li><a href="#">About Usil For Live</a></li>
+                    <li><a href="#">Global Scale of English</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="copy">
+
+            <p>Copyright &copy; Usil For Live 2017</p>
+        </div>
+
+    </footer>
+</body>
+
+
+
+
+</html>
