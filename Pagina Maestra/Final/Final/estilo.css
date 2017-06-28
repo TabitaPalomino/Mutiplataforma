@@ -3,7 +3,7 @@
 }
 
     body > form > div {
-        height: 250px;
+        height: 0px;
     }
 
 header {
@@ -79,11 +79,4 @@ header {
     text-align: center;
 }
 
-#imagen{
-    text-align: center;
-}
 
-#imagen #prueba1{
-    height: 250px;
-    width: 1400px;
-}

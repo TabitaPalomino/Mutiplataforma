@@ -9,4 +9,17 @@
 
       </div>
 
+    <section id="mitad2">
+        <div id="vision1">
+            <p>ACA SE RELLENA LA VISION</p>
+
+        </div>
+        <div id="vision2">
+            <button class="lado1">Registrarse como alumno</button>
+            <button class="lado1">Registrarse como profesor</button>
+
+        </div>
+
+    </section>
+
 </asp:Content>
