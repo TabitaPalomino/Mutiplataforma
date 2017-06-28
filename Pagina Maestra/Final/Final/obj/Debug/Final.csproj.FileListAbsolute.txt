@@ -10,3 +10,9 @@ C:\Users\User\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Fin
 C:\Users\User\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.dll
 C:\Users\User\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.pdb
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.dll.config
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.dll
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.pdb
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.dll
+C:\Users\alumno\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.pdb
