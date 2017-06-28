@@ -2,9 +2,12 @@
     font-family: Verdana;
 }
 
+<<<<<<< HEAD
     body > form > div {
         height: 0px;
     }
+=======
+>>>>>>> origin/master
 
 header {
     border-bottom: 1px solid black;
@@ -80,3 +83,15 @@ header {
 }
 
 
+<<<<<<< HEAD
+=======
+#imagen #prueba1{
+    height: 250px;
+    width: 1400px;
+}
+/* LOGIN -----------------------------------------------------------------------------------------*/
+#lol{
+    width:100%;
+}
+/*  -----------------------------------------------------------------------------------------*/
+>>>>>>> origin/master
