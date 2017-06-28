@@ -15,9 +15,7 @@
 
         </div>
         <div id="vision2">
-            <button class="lado1">Registrarse como alumno</button>
-            <button class="lado1">Registrarse como profesor</button>
-
+          
         </div>
 
     </section>
