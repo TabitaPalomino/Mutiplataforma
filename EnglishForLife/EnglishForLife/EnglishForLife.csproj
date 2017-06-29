@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="PaginaPrincipal.Master" />
     <None Include="Web.Debug.config">
@@ -90,11 +91,20 @@
     <Content Include="img\videos.png" />
     <Content Include="img\writing.png" />
     <Content Include="Portada.aspx" />
+    <Content Include="REalumno.aspx" />
+    <Content Include="REmaestro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaPrincipal.Master.cs">
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
@@ -111,6 +121,20 @@
       <DependentUpon>Portada.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REalumno.aspx.cs">
+      <DependentUpon>REalumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REalumno.aspx.designer.cs">
+      <DependentUpon>REalumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REmaestro.aspx.cs">
+      <DependentUpon>REmaestro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REmaestro.aspx.designer.cs">
+      <DependentUpon>REmaestro.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
