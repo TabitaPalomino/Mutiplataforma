@@ -15,9 +15,30 @@
 
         </div>
         <div id="vision2">
-          
+        <div id="contenedor1"> 
+          <div class="contenidotitulo">
+              <p>Registrarse</p>
+          </div>
+          <div class="cuadro1">
+              <a href="#">Alumno</a>
+          </div>
+          <div class="cuadro1">
+              <a href="#">Profesor</a>
+          </div>
         </div>
-
+        
+         <div id="contenedor2">
+            <div class="contenidotitulo">
+                <p>Iniciar Sesion</p>
+            </div>
+            <div class="cuadro1">
+                <a href="#">Ingrese alumno</a>
+            </div>
+             <div class="cuadro1">
+                 <a href="#">Ingrese profesor</a>
+             </div>
+        </div>
+            </div>
     </section>
 
 </asp:Content>
