@@ -22,3 +22,9 @@ C:\Users\CRISTHIAN\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bi
 C:\Users\CRISTHIAN\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
 C:\Users\CRISTHIAN\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.dll
 C:\Users\CRISTHIAN\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.pdb
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.dll.config
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.dll
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\bin\Final.pdb
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.dll
+C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\Pagina Maestra\Final\Final\obj\Debug\Final.pdb
