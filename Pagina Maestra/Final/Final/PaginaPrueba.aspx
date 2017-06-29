@@ -11,7 +11,7 @@
 
     <section id="mitad2">
         <div id="vision1">
-            <p>ACA SE RELLENA LA VISION</p>
+            <p>ACA IRA UNA IMAGEN</p>
 
         </div>
         <div id="vision2">
@@ -39,6 +39,8 @@
              </div>
         </div>
             </div>
+
+
     </section>
 
 </asp:Content>
