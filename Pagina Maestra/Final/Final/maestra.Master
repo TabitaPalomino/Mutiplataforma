@@ -30,6 +30,8 @@
         </section>
     </header>
 
+    <div class="both"> </div>
+
 
     <form id="form1" runat="server">
         <section id="mitad">
@@ -79,6 +81,9 @@
             </div>
 
         </div>
+
+            <div class="both"> </div>
+
         <div id="copy">
 
             <p>Copyright &copy; Usil For Live 2017</p>

@@ -59,7 +59,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="estilo.css" />
+    <Content Include="img\consulta.png" />
+    <Content Include="img\fotoperfil.jpg" />
+    <Content Include="img\listening.png" />
     <Content Include="img\LogoSample_ByTailorBrands.jpg" />
+    <Content Include="img\material.png" />
+    <Content Include="img\practicas.png" />
+    <Content Include="img\reading.png" />
+    <Content Include="img\talleres.png" />
+    <Content Include="img\videos.png" />
+    <Content Include="img\writing.png" />
     <Content Include="Login.aspx" />
     <Content Include="maestra.Master" />
     <None Include="Web.Debug.config">
@@ -72,6 +81,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="PaginaPrueba.aspx" />
+    <Content Include="Perfil.aspx" />
     <Content Include="REGalumno.aspx" />
     <Content Include="REGmaestro.aspx" />
     <Content Include="Web.config" />
@@ -100,6 +110,13 @@
     </Compile>
     <Compile Include="PaginaPrueba.aspx.designer.cs">
       <DependentUpon>PaginaPrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="REGalumno.aspx.cs">
