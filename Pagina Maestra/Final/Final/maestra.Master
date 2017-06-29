@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Usil For Live</title>
     <link href="estilo.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -13,19 +14,19 @@
 
     <header>
         <section id="izquierda">
-            <img id="logo" src="http://i66.tinypic.com/2vah4zt.jpg" />
+            <img id="logo" src="img/logoEFL.png"/>
         </section>
 
         <section id="derecha">
-            <a href="#">Catalogue</a>           &nbsp;     &nbsp; 
+            <a href="#">Inicio</a>           &nbsp;     &nbsp; 
            
-            <a href="#">Samples</a>             &nbsp;     &nbsp; 
+            <a href="#">Nosotros</a>         &nbsp;     &nbsp; 
            
-            <a href="#">About Us</a>            &nbsp;     &nbsp; 
+            <a href="#">Contactenos</a>    &nbsp;     &nbsp; 
            
-            <a href="#">Contact Us</a>          &nbsp;     &nbsp; 
+            <a href="#">Iniciar Sesión</a>    &nbsp;     &nbsp; 
            
-            <a href="#">Login & Register</a>    &nbsp;     &nbsp; 
+            <a href="#">Registrarse</a>    &nbsp;     &nbsp; 
            
         </section>
     </header>
