@@ -7,6 +7,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+    
     <section id="banner">
 
             <div id="contactanos">
@@ -41,8 +42,9 @@
                 <textarea name="Comentario" class="form1" placeholder="Comentario" style="height:150px"></textarea>
                 </div>
 
-                 <button>Enviar</button>
-
+                <div id="boton1">
+                 <button><span id="texto">Enviar</span></button>
+              </div>
             </div>
                 
                           
