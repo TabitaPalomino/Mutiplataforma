@@ -248,3 +248,39 @@ a {
     height: 100px;
     width: 100px;
 }
+
+/*----------Contactanos---------------------*/
+
+
+#banner {
+    background-image: url(https://estudiacurso.com/wp-content/2013/09/estudiar-ingles-poco-dinero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 1407px;
+    height: 250px;
+}
+    #banner #contactanos {
+        width: 1407px;
+        height: 250px;
+        /*background-color: #3c9cea;*/
+        border: 1px solid red;
+    }
+
+#contactanos #num1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #1cc495;
+    padding: 10px;
+
+}
+
+#contactanos #num2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #1cc495;
+    padding: 10px;
+
+}
