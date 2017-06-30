@@ -16,7 +16,36 @@
             
             </div>
 
+            <div id="formulario">
+                <div class="paraform">
+                <input type="text" class="form1" name="Nombre" placeholder="Nombres">
+                </div>
 
+                <div class="paraform">
+                <input type="text" class="form1" name="ApellidoP" placeholder="Apellido Paterno">
+                </div>
+
+                <div class="paraform">
+                <input type="text" class="form1" name="ApellidoM" placeholder="Apellido Materno">
+                </div>
+
+                <div class="paraform">
+                <input type="text" class="form1" name="Telefono" placeholder="Telefono/Casa">
+                </div>
+
+                <div class="paraform">
+                <input type="text" class="form1" name="Email" placeholder="Email">
+                </div>
+
+                <div class="paraform">
+                <textarea name="Comentario" class="form1" placeholder="Comentario" style="height:150px"></textarea>
+                </div>
+
+                 <button>Enviar</button>
+
+            </div>
+                
+                          
     </section>
 
 
