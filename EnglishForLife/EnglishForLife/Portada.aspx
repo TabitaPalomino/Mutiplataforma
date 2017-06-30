@@ -6,6 +6,7 @@
       <div id="imagen">
 
     <img src="../img/primerpost.jpg" id="prueba1"/>
+         
 
       </div>
 
