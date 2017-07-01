@@ -1,5 +1,7 @@
 ﻿body {
     font-family: Verdana;
+    
+    height: 100%;
 }
 
 
@@ -51,11 +53,13 @@ header {
 }
 
 #footer1 {
-    position: fixed;
+    position: relative;
     left: 0px;
     bottom: 0px;
     height: 199px;
     width: 100%;
+    clear:both;
+    margin-top: -100px;
 }
 
 .footermenu {
@@ -268,6 +272,9 @@ a {
     background-position: center center;
     width: 1407px;
     height: 250px;
+    min-height: 100%;
+    position: relative;
+    
 }
     #banner #contactanos {
         width: 1407px;
