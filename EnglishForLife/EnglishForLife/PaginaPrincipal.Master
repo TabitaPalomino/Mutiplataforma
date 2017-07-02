@@ -45,7 +45,7 @@
 
     
 
-    <footer>
+    <footer id="footer1">
         <div id="contenedor">
 
             <div id="Primera" class="footermenu">

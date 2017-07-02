@@ -5,7 +5,8 @@
     
       <div id="imagen">
 
-    <img src="https://www.thesun.co.uk/wp-content/uploads/2016/06/ronaldo_mobile_top.jpg?strip=all&w=750&h=352&crop=1" id="prueba1"/>
+    <img src="../img/primerpost.jpg" id="prueba1"/>
+         
 
       </div>
 
@@ -15,31 +16,48 @@
 
         </div>
         <div id="vision2">
-        <div id="contenedor1"> 
-          <div class="contenidotitulo">
-              <p>Registrarse</p>
-          </div>
-          <div class="cuadro1">
-              <a href="#">Alumno</a>
-          </div>
-          <div class="cuadro1">
-              <a href="#">Profesor</a>
-          </div>
-        </div>
+                    <div id="contenedor1"> 
+                              <div class="contenidotitulo">
+                                  <p>Registrarse</p>
+                              </div>
+                              <div class="cuadro1">
+                                  <a href="#">Alumno</a>
+                              </div>
+                              <div class="cuadro1">
+                                  <a href="#">Profesor</a>
+                              </div>
+                    </div>
         
-         <div id="contenedor2">
-            <div class="contenidotitulo">
-                <p>Iniciar Sesion</p>
+                     <div id="contenedor2">
+                                <div class="contenidotitulo">
+                                    <p>Iniciar Sesion</p>
+                                </div>
+                                <div class="cuadro1">
+                                    <a href="#">Ingrese alumno</a>
+                                </div>
+                                 <div class="cuadro1">
+                                     <a href="#">Ingrese profesor</a>
+                                 </div>
+                        </div>
             </div>
-            <div class="cuadro1">
-                <a href="#">Ingrese alumno</a>
-            </div>
-             <div class="cuadro1">
-                 <a href="#">Ingrese profesor</a>
-             </div>
-        </div>
-            </div>
-
-
     </section>
+    <article>
+        <h1>6 razones para empezar a aprender el idioma</h1>
+        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="XmlDataSource1">
+            <ItemTemplate>
+                <div class="RazonClass">
+                    <img width="150" src="<%#XPath("imagen")%>" /> 
+                    <span><%#XPath("titulo")%>   </span>
+                    <p><%#XPath("descripcion")%>  </p>
+                </div>
+            </ItemTemplate>
+
+        </asp:Repeater>
+
+        <asp:XmlDataSource runat="server" ID="XmlDataSource1" DataFile="~/Razones.xml" >
+
+        </asp:XmlDataSource>
+    </article>
+        
+
 </asp:Content>
