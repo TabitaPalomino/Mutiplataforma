@@ -332,115 +332,52 @@ a {
 
 }
 /*Iniciar Sesion--------------------------------------------------------------------------*/
-
-
-.titulo {
-    text-align: center;
-    padding: 4px;
-}
-#row1{
-    width:500px;
-}
-
-strong {
-    border-bottom: 2px solid #1773ce;
-}
-
-#iniciar {
-    width: 80%;
+#Lcaja {
     margin: auto;
-    margin-bottom: 15px;
+    height: 700px;
+    background: url(http://www.latinoaustralia.com/public/images/images_upload_comunicaciones/internationalstudies/destinos/australia/Cursos-de-Ingles_3.jpg) no-repeat center center;
+    background-size: cover;
+    border: 1px solid #808080;
 }
-
-.redes {
-    margin: 5px 0;
-}
-
-.red-so {
-    padding: 13px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 10px;
-    font-size: 1.2em;
-}
-
-    .red-so > a {
-        color: #fff;
-    }
-
-    .red-so:hover, .red-so:focus, .red-so:active:focus {
-        opacity: 0.5;
-        color: #fff;
-    }
-
-.link-opc > a {
-    color: #1E90FF;
-    margin-left: 10px;
-    font-size: 18px;
-}
-
-.face {
-    background: url(https://creators-images.vice.com/content-images/contentimage/no-slug/8abf28560156b8786c3c9142b8bbfb89.jpg);
-}
-
-.insta {
-    background: url(https://www.tuexpertoapps.com/wp-content/uploads/2013/09/instagram-facebook-01.jpg);
-}
-
-.goog {
-    background: url(http://blog.verticalresponse.com/wp-content/uploads/2013/03/google-plus-logo-red-620-350.png);
-}
-#cuerpos {
-    background-image: url(http://caddeweb.com/wp-content/uploads/2015/07/possibilities_bg3.jpg);
-    margin:auto;
-}
-
-.elegir {
-    min-width: 10px;
+#Lizquierda {
     float: left;
+    width: 49%;
 }
-
-.texto {
-    text-align: center;
+#Lderecha {
+    margin-left: 50%;
 }
-
-    .texto h1 {
-        margin-top: 10px;
-    }
-
-.caja-grand {
-    padding: 9px 25px 15px 25px;
+#sostiene {
+    clear:both;
+}
+#Lcaja-login {
+    margin: auto;
+    margin-top: 138px;
+    width: 50%;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 10px;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-
-.caja {
-    padding: 9px 25px 15px 25px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    margin-top: 20px;
-}
-
-    .caja p {
-        color: #fff;
-        font-size: 1em;
-    }
-
-.opcion-sexo > span {
     color: #fff;
+    font-size: 22px;
 }
-
-input.opcion {
-    margin-left: 15px;
+#Lboton{
+    margin-top:10px;
 }
-
-.boton {
+#Linput > input {
+    display: block;
+    width: 92%;
+    height: 34px;
+    padding-left: 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-rendering: auto;
+}
+#LbotonB {
     height: 40px;
     background: #1AAE88;
     border: 0;
@@ -453,54 +390,6 @@ input.opcion {
     margin-bottom: 10px;
 }
 
-#condicion {
-    color: #fff;
-}
-
-.container-der {
-    text-align: center;
-}
-
-#costado {
-    width: 85%;
-    margin: auto;
-    padding: 100px 0 100px 0;
-}
-
-#convencer > .texto {
-    font-size: 25px;
-    font-family: Segoe Print;
-}
-
-#convencer > img {
-    width: 20%;
-    border-radius: 10px;
-}
-
-.red-social {
-    margin-top: 15px;
-}
-
-.social {
-    display: inline-block;
-    height: 45px;
-    margin: 5px;
-    padding: 12px 20px 0 20px;
-    background: rgba(10, 10, 10, 0.9);
-    border: 1px solid #fff;
-    font-size: 16px;
-    color: #fff;
-    border-radius: 8px;
-}
-
-    .social:hover, .social:focus, .social:active:focus {
-        opacity: 0.5;
-        color: #fff;
-    }
-#nop {
-    background: url(../Image/Bienvenida.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
 
 /*-------------------PERFIL------------------------------------------*/
 #izquierdaperfil {
