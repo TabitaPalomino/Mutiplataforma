@@ -331,4 +331,174 @@ a {
     margin-left: 670px;
 
 }
+/*Iniciar Sesion--------------------------------------------------------------------------*/
+
+
+.titulo {
+    text-align: center;
+    padding: 4px;
+}
+#row1{
+    width:500px;
+}
+
+strong {
+    border-bottom: 2px solid #1773ce;
+}
+
+#iniciar {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.redes {
+    margin: 5px 0;
+}
+
+.red-so {
+    padding: 13px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+    .red-so > a {
+        color: #fff;
+    }
+
+    .red-so:hover, .red-so:focus, .red-so:active:focus {
+        opacity: 0.5;
+        color: #fff;
+    }
+
+.link-opc > a {
+    color: #1E90FF;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.face {
+    background: url(https://creators-images.vice.com/content-images/contentimage/no-slug/8abf28560156b8786c3c9142b8bbfb89.jpg);
+}
+
+.insta {
+    background: url(https://www.tuexpertoapps.com/wp-content/uploads/2013/09/instagram-facebook-01.jpg);
+}
+
+.goog {
+    background: url(http://blog.verticalresponse.com/wp-content/uploads/2013/03/google-plus-logo-red-620-350.png);
+}
+#cuerpos {
+    background-image: url(http://caddeweb.com/wp-content/uploads/2015/07/possibilities_bg3.jpg);
+    margin:auto;
+}
+
+.elegir {
+    min-width: 10px;
+    float: left;
+}
+
+.texto {
+    text-align: center;
+}
+
+    .texto h1 {
+        margin-top: 10px;
+    }
+
+.caja-grand {
+    padding: 9px 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.caja {
+    padding: 9px 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+    .caja p {
+        color: #fff;
+        font-size: 1em;
+    }
+
+.opcion-sexo > span {
+    color: #fff;
+}
+
+input.opcion {
+    margin-left: 15px;
+}
+
+.boton {
+    height: 40px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#condicion {
+    color: #fff;
+}
+
+.container-der {
+    text-align: center;
+}
+
+#costado {
+    width: 85%;
+    margin: auto;
+    padding: 100px 0 100px 0;
+}
+
+#convencer > .texto {
+    font-size: 25px;
+    font-family: Segoe Print;
+}
+
+#convencer > img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.red-social {
+    margin-top: 15px;
+}
+
+.social {
+    display: inline-block;
+    height: 45px;
+    margin: 5px;
+    padding: 12px 20px 0 20px;
+    background: rgba(10, 10, 10, 0.9);
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+    .social:hover, .social:focus, .social:active:focus {
+        opacity: 0.5;
+        color: #fff;
+    }
+#nop {
+    background: url(../Image/Bienvenida.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
 
