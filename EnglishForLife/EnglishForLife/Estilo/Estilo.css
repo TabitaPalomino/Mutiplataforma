@@ -502,3 +502,56 @@ input.opcion {
     background-size: cover;
 }
 
+/*-------------------PERFIL------------------------------------------*/
+#izquierdaperfil {
+    float: left;
+    width: 25%;
+}
+
+#derechaperfil {
+    margin-left: 25%;
+}
+
+.menu {
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 1px 5px 6px 6px;
+    height: 650px;
+}
+
+    .menu h4 {
+        background-color: #003057;
+        color: #fff;
+        padding: 8px;
+        border-radius: 3px;
+    }
+
+    .menu ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .menu li {
+        list-style-type: none;
+        padding: 5px;
+    }
+
+        .menu li > a {
+            text-decoration: none;
+        }
+
+#foto {
+    text-align: center;
+}
+
+    #foto > img {
+        height: 150px;
+        width: 150px;
+    }
+
+.iconos > div > img {
+    height: 100px;
+    width: 100px;
+}

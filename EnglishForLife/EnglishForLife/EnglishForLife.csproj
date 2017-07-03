@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Perfil.aspx" />
     <Content Include="Prueba\Contactanos.aspx" />
     <Content Include="Contacto.aspx" />
     <Content Include="Login.aspx" />
@@ -98,6 +99,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Prueba\Contactanos.aspx.cs">
       <DependentUpon>Contactanos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
