@@ -53,14 +53,14 @@ header {
 }
 
 
-#footer1 {
+#footer1{
     position: relative;
     left: 0px;
     bottom: 0px;
     height: 200px;
     width: 100%;
     clear: both;
-    margin-top: 700px;
+  
 }
 
 .footermenu {
@@ -272,7 +272,7 @@ a {
     background-size: cover;
     background-position: center center;
     width: 1407px;
-    height: 250px;
+    
     min-height: 100%;
     position: relative;
     
@@ -331,6 +331,8 @@ a {
     margin-left: 670px;
 
 }
+
+
 /*Iniciar Sesion--------------------------------------------------------------------------*/
 #Lcaja {
     margin: auto;
