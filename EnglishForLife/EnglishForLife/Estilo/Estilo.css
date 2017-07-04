@@ -361,6 +361,7 @@ a {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     font-size: 22px;
+    box-shadow: 0 16px 68px #666666;
 }
 #Lboton{
     margin-top:10px;
