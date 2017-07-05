@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>EnglishForLife</title>
     <link href="Estilo/Estilo.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -14,7 +14,7 @@
 
     <header>
         <section id="izquierda">
-            <img id="logo"  src="img/logoEFL.png"/>
+            <img id="logo" src="img/logoEFL.png" />
         </section>
 
         <section id="derecha">
@@ -24,26 +24,32 @@
            
             <a href="#">Contactenos</a>    &nbsp;     &nbsp; 
            
-            <a href="#">Iniciar Sesión</a>    &nbsp;     &nbsp; 
+            <a href="Login.aspx">Iniciar Sesión</a>    &nbsp;     &nbsp; 
            
-            <a href="#">Registrarse</a>    &nbsp;     &nbsp; 
+            <label>
+                <select onchange="location = this.value;">
+                    <option selected>Registrarse</option>
+                    <option value="REalumno.aspx">Como Alumno</option>
+                    <option value="REmaestro.aspx">Como Maestro</option>
+                </select>
+            </label>
+            &nbsp;     &nbsp; 
            
         </section>
     </header>
 
-    <div class="both"> </div>
+    <div class="both"></div>
 
 
     <form id="form1" runat="server">
         <section id="mitad">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
-        
+
         </section>
     </form>
 
-    
+
 
     <footer id="footer1">
         <div id="contenedor">
@@ -83,7 +89,7 @@
 
         </div>
 
-            <div class="both"> </div>
+        <div class="both"></div>
 
         <div id="copy">
 
