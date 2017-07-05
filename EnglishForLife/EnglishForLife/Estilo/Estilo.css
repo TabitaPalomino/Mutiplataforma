@@ -28,11 +28,18 @@ header {
     
 }
 
-    #derecha > a {
-        text-decoration: none;
-        color: black;
-        cursor: pointer;
-    }
+
+
+
+#derecha > a, #derecha > label > select {
+    font-family: Verdana;
+    border: none;
+    outline: 0px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 #logo {
     height: 75px;
@@ -105,6 +112,20 @@ header {
 /* LOGIN -----------------------------------------------------------------------------------------*/
 #lol {
     width: 100%;
+}
+#REnaci {
+    float: left;
+    width: 50%;
+    text-align:center;
+}
+#REnaci2 {
+    text-align: center;
+}
+
+#REgrado {
+    border-left: 2px solid black;
+    margin-left: 54%;
+    text-align: center;
 }
 /*  -----------------------------------------------------------------------------------------*/
 
@@ -348,8 +369,30 @@ a {
 #Lderecha {
     margin-left: 50%;
 }
-#sostiene {
+.sostiene {
     clear:both;
+}
+#Rnombre >p{
+    margin-top:0px;
+}
+#Rnombre {
+    float: left;
+    width: 49%;
+}
+#Rapellido {
+    margin-left: 50%;
+}
+#RmaestroCd {
+    margin: auto;
+    margin-top: 23px;
+    width: 70%;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 22px;
+    box-shadow: 0 16px 68px #666666;
 }
 #Lcaja-login {
     margin: auto;
@@ -363,10 +406,21 @@ a {
     font-size: 22px;
     box-shadow: 0 16px 68px #666666;
 }
-#Lboton{
-    margin-top:10px;
+#Lboton {
+    margin-top: 10px;
+    height: 40px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align:center;
 }
-#Linput > input {
+#Linput > input,#Linput>div>div>input {
     display: block;
     width: 92%;
     height: 34px;
@@ -381,16 +435,7 @@ a {
     text-rendering: auto;
 }
 #LbotonB {
-    height: 40px;
-    background: #1AAE88;
-    border: 0;
-    font-size: 16px;
-    color: #fff;
-    border-radius: 4px;
-    margin-left: 25%;
-    width: 50%;
-    margin-top: 8px;
-    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 

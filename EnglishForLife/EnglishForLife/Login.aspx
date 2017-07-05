@@ -5,7 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="Lcaja">
         <div id="Lizquierda">
-            
         </div>
         <div id="Lderecha">
             <div id="Lcaja-login">
@@ -16,7 +15,9 @@
                     <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
                 </div>
                 <div id="Lboton">
-                    <button type="submit" id="LbotonB">Entrar</button>
+                    <p  id="LbotonB">
+                        <a href="#">Entrar</a>
+                    </p>
                 </div>
             </div>
         </div>
