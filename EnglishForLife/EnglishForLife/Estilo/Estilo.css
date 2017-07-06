@@ -527,3 +527,37 @@ a {
     width:100%;
     border:2px solid red;
 }
+/*Pagina nosotros*/
+
+.caja {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: justify;
+    color: #0D3B63;
+}
+
+#total h1 {
+    color: #0D3B63;
+    padding-bottom: 20px;
+}
+
+.caja p {
+    font-size: 16px;
+    color: #0D3B63;
+    font-family: Vegur;
+}
+
+.caja h2 {
+    color: #0D3B63;
+    font-size: 20px;
+}
+
+#lele {
+    margin: 0 25%;
+    width: 200px;
+}
+
+#total {
+    background-image: url(../img/FondoNosotro.jpg);
+    background-size: 100%;
+}
