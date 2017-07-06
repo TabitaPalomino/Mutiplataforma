@@ -134,29 +134,27 @@ header {
 #imagen #prueba1 {
         height: 450px;
         width: 100%;
-        padding: 10px;
         /*  border-bottom: 20px solid #3c9cea;
         border-top: 20px solid #3c9cea;*/
 }
 
 #mitad2 {
     width: 100%;
-    height: 450px;
-    margin: 5px 5px 5px 5px;
+    height: 340px;
+    margin: 5px 0px;
 }
 
     #mitad2 #vision1 {
         float: left;
         width: 50%;
         text-align: center;
-        height: 220px;
+        height: 340px;
         border: 1px solid red;
     }
 
     #mitad2 #vision2 {
         margin-left: 50%;
-        width: 53%;
-        height: 220px;
+        height: 340px;
         border: 1px solid red;
     }
 /*
@@ -176,20 +174,21 @@ header {
 
 #contenedor1 {
     width: 43%;
-    height: 190px;
+    height: 300px;
     float: left;
     border: 1px solid red;
-    margin: 20px 10px 10px 40px;
+    margin: 10px 10px 10px 40px;
 }
 
 #contenedor2 {
-    margin-left: 43%;
-    width: 43%;
-    height: 190px;
+    height: 300px;
     border: 1px solid red;
-    margin: 20px 10px 10px 400px
+    margin: 10px 0px 10px 55%;
 }
 
+#vision1 > img {
+    width:60%;
+}
 a {
     text-decoration: none;
     color: #003057;

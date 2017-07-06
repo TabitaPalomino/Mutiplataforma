@@ -4,11 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="contenedorPortada">
-       <div id="imagen">
+        <div id="imagen">
             <img src="img/bannerPrincipal.jpg" id="prueba1"/>
       </div>
-
-    <section id="mitad2">
+      
+        <section id="mitad2">
         <div id="vision1">
             <img src="img/fondoISyR.png""/>
         </div>
@@ -39,6 +39,11 @@
                         </div>
             </div>
     </section>
+
+    </div>
+        
+
+    
 
     <article>
         <h1>6 razones para empezar a aprender el idioma</h1>
@@ -106,5 +111,4 @@
             </section>
         </div>
     </article>
-    </div>
 </asp:Content>
