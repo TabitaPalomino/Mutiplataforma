@@ -353,7 +353,7 @@ a {
 /*Iniciar Sesion--------------------------------------------------------------------------*/
 #Lcaja {
     margin: auto;
-    height: 700px;
+    height: 900px;
     background: url(http://www.latinoaustralia.com/public/images/images_upload_comunicaciones/internationalstudies/destinos/australia/Cursos-de-Ingles_3.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #808080;
@@ -430,11 +430,14 @@ a {
     border-radius: 4px;
     text-rendering: auto;
 }
+
 #LbotonB {
     padding-top: 10px;
 }
 
-
+#Linput h2 {
+    text-align:center;
+}
 /*-------------------PERFIL------------------------------------------*/
 #izquierdaperfil {
     float: left;

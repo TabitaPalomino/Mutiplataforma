@@ -8,7 +8,9 @@
         </div>
         <div id="Lderecha">
             <div id="RmaestroCd">
+                
                 <div id="Linput">
+                    <h2>Registro de Alumno</h2>
                     <div id="Rnombres">
                         <div id="Rnombre">
                             <p>Nombre</p>
@@ -20,8 +22,6 @@
                         </div>
                     </div>
                     <div class="sostiene"></div>
-                    <p>Correo</p>
-                    <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control"> 
                     <div id="REnaci2">
                         <p>Fecha de Nacimiento</p>
                         <span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_0_g"><span>
@@ -73,7 +73,9 @@
                                 <option value="10">oct</option>
                                 <option value="11">nov</option>
                                 <option value="12">dic</option>
-                            </select><select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba"><option value="0">Año</option>
+                            </select>
+                            <select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba">
+                                <option value="0" selected="1">Año</option>
                                 <option value="2017">2017</option>
                                 <option value="2016">2016</option>
                                 <option value="2015">2015</option>
@@ -92,7 +94,7 @@
                                 <option value="2002">2002</option>
                                 <option value="2001">2001</option>
                                 <option value="2000">2000</option>
-                                <option value="1999" selected="1">1999</option>
+                                <option value="1999">1999</option>
                                 <option value="1998">1998</option>
                                 <option value="1997">1997</option>
                                 <option value="1996">1996</option>
@@ -190,9 +192,13 @@
                             </select></span></span>
                     </div>
 
-
-                    <p>Contraseña</p>
+                <p>Correo</p>
+                    <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control">
+                <p>Contraseña</p>
                     <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">                    
+                
+                <p>Correo Alternativo</p>
+                    <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div id="Lboton">
                     <p  id="LbotonB">

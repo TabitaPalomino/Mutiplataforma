@@ -61,6 +61,7 @@
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select>
+                            
                             <select aria-label="Mes" name="birthday_month" id="month" title="Mes" class="_5dba">
                                 <option value="0" selected="1">Mes</option>
                                 <option value="1">ene</option>
@@ -75,8 +76,9 @@
                                 <option value="10">oct</option>
                                 <option value="11">nov</option>
                                 <option value="12">dic</option>
-                            </select><select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba"><option value="0">Año</option>
-                                <option value="2017">2017</option>
+                            </select>
+                            <select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba">
+                                <option value="0" selected="1">Año</option>
                                 <option value="2016">2016</option>
                                 <option value="2015">2015</option>
                                 <option value="2014">2014</option>
@@ -94,7 +96,7 @@
                                 <option value="2002">2002</option>
                                 <option value="2001">2001</option>
                                 <option value="2000">2000</option>
-                                <option value="1999" selected="1">1999</option>
+                                <option value="1999">1999</option>
                                 <option value="1998">1998</option>
                                 <option value="1997">1997</option>
                                 <option value="1996">1996</option>
@@ -201,7 +203,7 @@
                                 <option value="Ingles 3">Ingles 3</option>
                                 <option value="Ingles 4">Ingles 4</option>
                                 <option value="Ingles 5">Ingles 5</option>
-                                <option value="Ingles 6">Ingles 5</option>
+                                <option value="Ingles 6">Ingles 6</option>
                             </select>
                         </label>
                         
@@ -209,6 +211,8 @@
                     <div class="sostiene"></div>
                     <p>Contraseña</p>
                     <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+                    <p>Correo Alternativo</p>
+                    <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div id="Lboton">
                     <p id="LbotonB">
