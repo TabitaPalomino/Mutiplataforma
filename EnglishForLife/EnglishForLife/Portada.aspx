@@ -10,7 +10,7 @@
       
         <section id="mitad2">
         <div id="vision1">
-            <img src="img/fondoISyR.png""/>
+            
         </div>
 
         <div id="vision2">
@@ -39,23 +39,17 @@
                         </div>
             </div>
     </section>
-
-    </div>
-        
-
-    
-
-    <article>
-        <h1>6 razones para empezar a aprender el idioma</h1>
         <br />
+        <article class="contenedorRazones">
+        <h1 style="font-size:25px; text-align:center;">6 razones para empezar a aprender ingles</h1>
         <div class="razonC">
             <section class="col1Razones">
                 <section class="razonesImg1">
                     <img src="img/Razon1.png" class="img-responsive" alt="Responsive image" />
                 </section>
                 <section class="razonesTexto1">
-                    <h3>El inglés se habla alrededor de todo el mundo</h3>
-                    <p>El inglés no es el idioma más hablado (ese título va al chino), pero viene en tercer lugar, después del español. Y el número de 335 millones de hablantes nativos es respetable.</p>
+                    <h3>El inglés se habla en de todo el mundo</h3>
+                    <p>El inglés no es el idioma más hablado,pero viene en tercer lugar, después del español. Con 335 millones de hablantes nativos.</p>
                 </section>
             </section>
             <section class="col2Razones">
@@ -64,7 +58,7 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>Negocios internacionales requieren Inglés</h3>
-                    <p>En términos de comercio internacional, el inglés es el idioma para aprender. Cuando los chinos hacen negocios en Egipto, las negociaciones y transacciones ocurren en inglés.</p>
+                    <p>En términos de comercio internacional, el inglés es el idioma para aprender. Cuando los chinos hacen negocios en Egipto, las negociaciones en inglés.</p>
                 </section>
             </section>
         </div>
@@ -75,8 +69,8 @@
                     <img src="img/Razon3.png" class="img-responsive" alt="Responsive image" />
                 </section>
                 <section class="razonesTexto1">
-                    <h3>Oportunidades de educación y de investigación</h3>
-                    <p>Pensando en estudiar en el extranjero o publicar un trabajo de investigación? Lo más probable es que usted decida aprender inglés en algún momento del camino, o estudiar en su institución elegida.</p>
+                    <h3>Oportunidades de educación e investigación</h3>
+                    <p>Pensando en estudiar en el extranjero o publicar un trabajo de investigación? Lo más probable es que usted decida aprender inglés en algún momento del camino.</p>
                 </section>
             </section>
             <section class="col2Razones">
@@ -85,7 +79,7 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>Un lenguaje perfecto para viajar</h3>
-                    <p>Si viaja a menudo, notará que los signos tienden a aparecer en la lengua local primero y en inglés en segundo lugar. Eso es porque el inglés es considerado el idioma internacional más popular.</p>
+                    <p>Si viaja a menudo, debes saber que el inglés es considerado el idioma internacional más popular.</p>
                 </section>
             </section>
         </div>
@@ -111,4 +105,6 @@
             </section>
         </div>
     </article>
+
+    </div>
 </asp:Content>
