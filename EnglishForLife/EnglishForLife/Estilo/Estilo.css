@@ -153,11 +153,13 @@ header {
         width: 50%;
         text-align: center;
         min-height: 300px;
+        background-color:white;
     }
 
     #mitad2 #vision2 {
         margin-left: 50%;
         min-height: 350px;
+        background-color: white;
     }
 /*
         #mitad2 #vision2 .lado1 {
