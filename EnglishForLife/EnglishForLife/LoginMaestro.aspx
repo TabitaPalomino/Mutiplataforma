@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="EnglishForLife.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="LoginMaestro.aspx.cs" Inherits="EnglishForLife.Login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -16,7 +16,7 @@
                     	        
                 </div>
                 <br />
-                <a style="font-size:12px;" href="#">Olvidaste tu contraseña. Click Aqui</a>
+                <a style="font-size:12px;" href="">Olvidaste tu contraseña. Click Aqui</a>
                 <div class="Lboton">
                     <p  class="LbotonB">
                         <a href="#">Entrar</a>
@@ -24,7 +24,7 @@
                 </div>
                 <p style="font-size:12px;" >¿Aún no tienes cuenta?</p>
                 <div class="Lboton">
-                    <p  class="LbotonB">
+                    <p  id="LbotonB">
                        <a href="REalumno.aspx">Registrate</a>
                     </p>
                 </div>

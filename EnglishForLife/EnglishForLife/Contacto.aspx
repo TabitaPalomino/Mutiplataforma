@@ -5,7 +5,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <section id="banner">
+    <div id="banner">
 
             <div id="contactanos">
 
@@ -44,14 +44,8 @@
               </div>
 
               
-            </div>
-              
-        
-    
-                          
-    </section>
-
-
+            </div>                          
+    </div>
 
 
 </asp:Content>

@@ -18,17 +18,23 @@
         </section>
 
         <section id="derecha">
-            <a href="#">Inicio</a>           &nbsp;     &nbsp; 
+            <a href="Portada.aspx">Inicio</a>          &nbsp;     &nbsp; 
            
-            <a href="#">Nosotros</a>         &nbsp;     &nbsp; 
+            <a href="Nosotros.aspx">Nosotros</a>        &nbsp;     &nbsp; 
            
-            <a href="#">Contactenos</a>    &nbsp;     &nbsp; 
-           
-            <a href="Login.aspx">Iniciar Sesión</a>    &nbsp;     &nbsp; 
+            <a href="Contacto.aspx">Contactenos</a>    &nbsp;     &nbsp; 
            
             <label>
                 <select onchange="location = this.value;">
-                    <option selected>Registrarse</option>
+                    <option value="#">Iniciar Sesion</option>
+                    <option value="Login.aspx">Como Alumno</option>
+                    <option value="LoginMaestro.aspx">Como Maestro</option>
+                </select>
+            </label>    &nbsp;     &nbsp; 
+           
+            <label>
+                <select onchange="location = this.value;">
+                    <option value="#">Registrarse</option>
                     <option value="REalumno.aspx">Como Alumno</option>
                     <option value="REmaestro.aspx">Como Maestro</option>
                 </select>

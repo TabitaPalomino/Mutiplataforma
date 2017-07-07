@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Verdana;
-    
+    margin:0px;
     height: 100%;
 }
 
@@ -13,6 +13,11 @@
 header {
     border-bottom: 1px solid black;
     height: 75px;
+    position:fixed;
+    background-color:white;
+    width:100%;
+    font-weight:bold;
+    margin:0px;
 }
 
 #izquierda {
@@ -132,7 +137,7 @@ header {
 }
 
 #imagen #prueba1 {
-        height: 450px;
+        height: 560px;
         width: 100%;
         /*  border-bottom: 20px solid #3c9cea;
         border-top: 20px solid #3c9cea;*/
@@ -140,52 +145,37 @@ header {
 
 #mitad2 {
     width: 100%;
-    min-height: 350px;
+    min-height: 400px;
     margin: 5px 0px;
     background-image: url('http://talib.pk/wp-content/uploads/2016/04/Best-College-For-English-Language-Course-In-Lahore.jpg');
     background-size:100% 100%;
     background-repeat:no-repeat;
-    border:1px solid red;
 }
 
     #mitad2 #vision1 {
         float: left;
-        width: 50%;
+        width: 40%;
         text-align: center;
         min-height: 300px;
-        background-color:white;
     }
 
     #mitad2 #vision2 {
-        margin-left: 50%;
+        margin-left: 45%;
         min-height: 350px;
-        background-color: white;
     }
-/*
-        #mitad2 #vision2 .lado1 {
-            margin-top: 20px;
-            text-align: left;
-            width: 100px;
-            height: 40px;
-        }
-        #mitad2 #vision2 #lado2 {
-            margin-top: 40px;
-            text-align: right;
-            width: 100px;
-            height: 40px;
-        }
-    */
 
 #contenedor1 {
     width: 43%;
-    height: 300px;
+    height: 200px;
     float: left;
     margin: 10px 10px 10px 40px;
+    background-color: #f62e2e;
 }
 
 #contenedor2 {
-    height: 300px;
-    margin: 10px 0px 10px 55%;
+    height: 200px;
+    margin: 10px 30px 10px 52%;
+    background-color: #f6c011;
 }
 
 #vision1 > img {
@@ -291,7 +281,7 @@ a {
     background-size: cover;
     background-position: center center;
     width: 1407px;
-    
+    margin-top:75px;
     min-height: 100%;
     position: relative;
     
@@ -359,6 +349,7 @@ a {
     background: url(http://www.latinoaustralia.com/public/images/images_upload_comunicaciones/internationalstudies/destinos/australia/Cursos-de-Ingles_3.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #808080;
+    margin-top:75px;
 }
 #Lizquierda {
     float: left;
@@ -404,7 +395,7 @@ a {
     font-size: 22px;
     box-shadow: 0 16px 68px #666666;
 }
-#Lboton {
+.Lboton {
     margin-top: 10px;
     height: 40px;
     background: #1AAE88;
@@ -433,7 +424,7 @@ a {
     text-rendering: auto;
 }
 
-#LbotonB {
+.LbotonB {
     padding-top: 10px;
 }
 
@@ -524,6 +515,7 @@ a {
 }
 .contenedorPortada{
     width:100%;
+    margin-top:75px;
 }
 /*.contenedorRazones {
     background-color: #F5FDFF;
@@ -539,6 +531,7 @@ a {
 #total h1 {
     color: #0D3B63;
     padding-bottom: 20px;
+    margin-top:79px;
 }
 
 .caja p {
