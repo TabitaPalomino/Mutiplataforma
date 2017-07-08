@@ -1,0 +1,6 @@
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll.config
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.pdb
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.csprojResolveAssemblyReference.cache
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.dll
+c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.pdb
