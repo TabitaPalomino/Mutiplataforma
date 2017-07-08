@@ -18,10 +18,10 @@
                                   <p id="registrarse">Registrarse</p>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Como Alumno</a>
+                                  <a href="#">Alumno</a>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Como Profesor</a>
+                                  <a href="#">Profesor</a>
                               </div>
                     </div>
         
