@@ -166,7 +166,7 @@ header {
     width: 43%;
     height: 200px;
     float: left;
-    margin: 10px 10px 10px 40px;
+    margin: 0px 10px 10px 40px;
     background-color: #f62e2e;
 }
 
@@ -176,6 +176,9 @@ header {
     background-color: #f6c011;
 }
 
+#contenedor2 #sesion{
+    padding-top: 20px;
+}
 #vision1 > img {
     width: 60%;
 }

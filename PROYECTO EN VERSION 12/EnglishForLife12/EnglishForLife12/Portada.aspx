@@ -27,7 +27,7 @@
         
                      <div id="contenedor2">
                                 <div class="contenidotitulo">
-                                    <p>Iniciar Sesion</p>
+                                    <p id="sesion">Iniciar Sesion</p>
                                 </div>
                                 <div class="cuadro1">
                                     <a href="#">Ingrese alumno</a>
