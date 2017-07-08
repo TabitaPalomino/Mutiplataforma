@@ -15,7 +15,7 @@
         <div id="vision2">
                     <div id="contenedor1"> 
                               <div class="contenidotitulo">
-                                  <p>Registrarse</p>
+                                  <p id="registrarse">Registrarse</p>
                               </div>
                               <div class="cuadro1">
                                   <a href="#">Alumno</a>

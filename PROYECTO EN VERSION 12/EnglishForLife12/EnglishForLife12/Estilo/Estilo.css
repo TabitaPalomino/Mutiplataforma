@@ -167,17 +167,21 @@ header {
     height: 200px;
     float: left;
     margin: 0px 10px 10px 40px;
-    background-color: #f62e2e;
+    background-color: #0D3B63;
 }
 
 #contenedor2 {
     height: 200px;
     margin: 10px 30px 10px 52%;
-    background-color: #f6c011;
+    background-color: #0D3B63;
 }
 
 #contenedor2 #sesion{
     padding-top: 20px;
+    color:white;
+}
+#contenedor1 #registrarse{
+    color: white;
 }
 #vision1 > img {
     width: 60%;
@@ -185,7 +189,7 @@ header {
 
 a {
     text-decoration: none;
-    color: #003057;
+    color: black;
 }
 
 .contenidotitulo {
@@ -195,11 +199,14 @@ a {
     color: black;
 }
 
+
 .cuadro1 {
-    background-color: #A6ADCB;
+    background-color: #60b6f6;
     padding: 10px;
+    font-family: Arial;
     margin: 15px 15px 15px 15px;
     height: 30px;
+    
     border-radius: 5px;
     text-align: center;
     font-size: 20px;
