@@ -18,10 +18,10 @@
                                   <p id="registrarse">Registrarse</p>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Alumno</a>
+                                  <a href="#">Como Alumno</a>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Profesor</a>
+                                  <a href="#">Como Profesor</a>
                               </div>
                     </div>
         
@@ -30,10 +30,10 @@
                                     <p id="sesion">Iniciar Sesion</p>
                                 </div>
                                 <div class="cuadro1">
-                                    <a href="#">Ingrese alumno</a>
+                                    <a href="#">Alumno</a>
                                 </div>
                                  <div class="cuadro1">
-                                     <a href="#">Ingrese profesor</a>
+                                     <a href="#">Profesor</a>
                                  </div>
                         </div>
             </div>
