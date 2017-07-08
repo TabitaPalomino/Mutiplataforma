@@ -134,3 +134,6 @@ C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishFo
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.csprojResolveAssemblyReference.cache
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.dll
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.pdb
+C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.dll
+C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\EnglishForLife\EnglishForLife\obj\Debug\EnglishForLife.pdb

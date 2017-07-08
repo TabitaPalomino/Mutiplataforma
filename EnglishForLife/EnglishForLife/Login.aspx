@@ -13,10 +13,19 @@
                     <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control" id="form-username">
                     <p>Contraseña</p>
                     <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+                    	        
                 </div>
-                <div id="Lboton">
-                    <p  id="LbotonB">
+                <br />
+                <a style="font-size:12px;" href="#">Olvidaste tu contraseña. Click Aqui</a>
+                <div class="Lboton">
+                    <p  class="LbotonB">
                         <a href="#">Entrar</a>
+                    </p>
+                </div>
+                <p style="font-size:12px;" >¿Aún no tienes cuenta?</p>
+                <div class="Lboton">
+                    <p  class="LbotonB">
+                       <a href="REalumno.aspx">Registrate</a>
                     </p>
                 </div>
             </div>

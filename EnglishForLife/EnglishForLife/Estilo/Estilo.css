@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Verdana;
-    
+    margin:0px;
     height: 100%;
 }
 
@@ -13,6 +13,11 @@
 header {
     border-bottom: 1px solid black;
     height: 75px;
+    position:fixed;
+    background-color:white;
+    width:100%;
+    font-weight:bold;
+    margin:0px;
 }
 
 #izquierda {
@@ -105,10 +110,6 @@ header {
 
 
 
-#imagen #prueba1 {
-    height: 250px;
-    width: 1400px;
-}
 /* LOGIN -----------------------------------------------------------------------------------------*/
 #lol {
     width: 100%;
@@ -132,67 +133,54 @@ header {
 /*----------INDEX--------------------------------------------------------------------------------------*/
 #imagen {
     text-align: center;
+
 }
 
-    #imagen #prueba1 {
-        height: 250px;
-        width: 1407px;
-        padding: 10px;
+#imagen #prueba1 {
+        height: 560px;
+        width: 100%;
         /*  border-bottom: 20px solid #3c9cea;
         border-top: 20px solid #3c9cea;*/
-    }
+}
 
 #mitad2 {
-    width: 1407px;
-    height: 450px;
-    margin: 5px 5px 5px 5px;
+    width: 100%;
+    min-height: 400px;
+    margin: 5px 0px;
+    background-image: url('http://talib.pk/wp-content/uploads/2016/04/Best-College-For-English-Language-Course-In-Lahore.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
 }
 
     #mitad2 #vision1 {
         float: left;
-        width: 50%;
+        width: 40%;
         text-align: center;
-        height: 220px;
-        border: 1px solid red;
+        min-height: 300px;
     }
 
     #mitad2 #vision2 {
-        margin-left: 50%;
-        width: 53%;
-        height: 220px;
-        border: 1px solid red;
+        margin-left: 45%;
+        min-height: 350px;
     }
-/*
-        #mitad2 #vision2 .lado1 {
-            margin-top: 20px;
-            text-align: left;
-            width: 100px;
-            height: 40px;
-        }
-        #mitad2 #vision2 #lado2 {
-            margin-top: 40px;
-            text-align: right;
-            width: 100px;
-            height: 40px;
-        }
-    */
 
 #contenedor1 {
     width: 43%;
-    height: 190px;
+    height: 200px;
     float: left;
-    border: 1px solid red;
-    margin: 20px 10px 10px 40px;
+    margin: 10px 10px 10px 40px;
+    background-color: #f62e2e;
 }
 
 #contenedor2 {
-    margin-left: 43%;
-    width: 43%;
-    height: 190px;
-    border: 1px solid red;
-    margin: 20px 10px 10px 400px
+    height: 200px;
+    margin: 10px 30px 10px 52%;
+    background-color: #f6c011;
 }
 
+#vision1 > img {
+    width:60%;
+}
 a {
     text-decoration: none;
     color: #003057;
@@ -293,7 +281,7 @@ a {
     background-size: cover;
     background-position: center center;
     width: 1407px;
-    
+    margin-top:75px;
     min-height: 100%;
     position: relative;
     
@@ -357,10 +345,11 @@ a {
 /*Iniciar Sesion--------------------------------------------------------------------------*/
 #Lcaja {
     margin: auto;
-    height: 700px;
+    height: 900px;
     background: url(http://www.latinoaustralia.com/public/images/images_upload_comunicaciones/internationalstudies/destinos/australia/Cursos-de-Ingles_3.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #808080;
+    margin-top:75px;
 }
 #Lizquierda {
     float: left;
@@ -406,7 +395,7 @@ a {
     font-size: 22px;
     box-shadow: 0 16px 68px #666666;
 }
-#Lboton {
+.Lboton {
     margin-top: 10px;
     height: 40px;
     background: #1AAE88;
@@ -434,11 +423,14 @@ a {
     border-radius: 4px;
     text-rendering: auto;
 }
-#LbotonB {
+
+.LbotonB {
     padding-top: 10px;
 }
 
-
+#Linput h2 {
+    text-align:center;
+}
 /*-------------------PERFIL------------------------------------------*/
 #izquierdaperfil {
     float: left;
@@ -491,4 +483,74 @@ a {
 .iconos > div > img {
     height: 100px;
     width: 100px;
+}
+
+/*RAZONES PARA ESTUDIAR INGLES*/
+.razonesImg1{
+    width:30%;
+    float:left;
+    margin:0px;
+    text-align:center;
+    margin-top:5px;
+}
+.razonesImg1 > img{
+    width:90px;
+}
+.razonesTexto1 {
+   margin-left: 30%;
+}
+
+.col1Razones {
+    width: 50%;
+    float: left;
+}
+
+.col2Razones {
+    margin-left: 50%;
+}
+
+.razonC {
+    width: 100%;
+    margin:5px 0px;
+}
+.contenedorPortada{
+    width:100%;
+    margin-top:75px;
+}
+/*.contenedorRazones {
+    background-color: #F5FDFF;
+}*/
+/*Pagina nosotros*/
+.caja {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: justify;
+    color: #0D3B63;
+}
+
+#total h1 {
+    color: #0D3B63;
+    padding-bottom: 20px;
+    margin-top:79px;
+}
+
+.caja p {
+    font-size: 16px;
+    color: #0D3B63;
+    font-family: Vegur;
+}
+
+.caja h2 {
+    color: #0D3B63;
+    font-size: 20px;
+}
+
+#lele {
+    margin: 0 25%;
+    width: 200px;
+}
+
+#total {
+    background-image: url(../img/FondoNosotro.jpg);
+    background-size: 100%;
 }
