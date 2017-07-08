@@ -213,8 +213,8 @@
                     <p>Correo Alternativo</p>
                     <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
-                <div id="Lboton">
-                    <p id="LbotonB">
+                <div class="Lboton">
+                    <p class="LbotonB">
                         <a href="Login.aspx">Registrar</a>
                     </p>
                 </div>

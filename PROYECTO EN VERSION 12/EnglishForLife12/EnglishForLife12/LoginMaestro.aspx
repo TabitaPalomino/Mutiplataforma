@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="LoginMaestro.aspx.cs" Inherits="EnglishForLife12.LoginMaestro" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,19 +13,18 @@
                     <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control" id="form-username">
                     <p>Contraseña</p>
                     <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
-                    	        
                 </div>
                 <br />
-                <a style="font-size:12px;" href="">Olvidaste tu contraseña. Click Aqui</a>
+                <a style="font-size: 12px;" href="#">Olvidaste tu contraseña. Click Aqui</a>
                 <div class="Lboton">
-                    <p  class="LbotonB">
+                    <p class="LbotonB">
                         <a href="#">Entrar</a>
                     </p>
                 </div>
-                <p style="font-size:12px;" >¿Aún no tienes cuenta?</p>
+                <p style="font-size: 12px;">¿Aún no tienes cuenta?</p>
                 <div class="Lboton">
-                    <p  id="LbotonB">
-                       <a href="REalumno.aspx">Registrate</a>
+                    <p class="LbotonB">
+                        <a href="REalumno.aspx">Registrate</a>
                     </p>
                 </div>
             </div>
