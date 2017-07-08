@@ -37,8 +37,8 @@
                 <textarea name="Comentario" class="form1" placeholder="Comentario" style="height:150px"></textarea>
                 </div>
 
-                <div id="boton1">
-                 <button><span id="texto">Enviar</span></button>
+                <div id="Lboton">
+                 <p class="LbotonB"><a href="#">Entrar</a></p>
               </div>
 
               
