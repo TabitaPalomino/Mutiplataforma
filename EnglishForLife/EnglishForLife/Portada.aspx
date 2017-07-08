@@ -20,6 +20,8 @@
                               </div>
                               <div class="cuadro1">
                                   <a href="#">Alumno</a>
+                                  <br />
+                                  <br />
                               </div>
                               <div class="cuadro1">
                                   <a href="#">Profesor</a>

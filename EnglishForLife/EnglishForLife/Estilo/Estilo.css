@@ -168,14 +168,17 @@ header {
     width: 43%;
     height: 200px;
     float: left;
-    margin: 10px 10px 10px 40px;
+    margin: 0px 10px 10px 40px;
     background-color: #f62e2e;
 }
 
 #contenedor2 {
-    height: 200px;
-    margin: 10px 30px 10px 52%;
+    height: 176px;
+    margin-left: 43%;
+    margin: 0px 30px 10px 300px;
     background-color: #f6c011;
+    padding-top: 20px;
+    
 }
 
 #vision1 > img {
