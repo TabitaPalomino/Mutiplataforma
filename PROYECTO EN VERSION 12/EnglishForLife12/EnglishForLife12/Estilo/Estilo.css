@@ -563,3 +563,75 @@ a {
 .Lcaja p {
     margin: 7px;
 }
+
+/*Pagina Beneficios*/
+
+.col1Beneficios {
+    width: 20%;
+    background-color: #f5f5f0;
+}
+
+.Beneficios {
+    background-color: #f5f5f0;
+}
+
+.BeneficiosImg1 {
+    width: 20%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 30%;
+    background-color: #f5f5f0;
+}
+
+.BeneficiosImg2 {
+    width: 30%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5%;
+    background-color: #f5f5f0;
+}
+/*.BeneficiosImg1 > img {
+        width: 90px;
+        margin-right:0px;
+    }*/
+
+.BeneficiosTexto1 {
+    margin-left: 40%;
+    background-color: #f5f5f0;
+}
+
+.BeneficiosTexto2 {
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.col1Beneficios {
+    width: 51%;
+    float: left;
+    background-color: #f5f5f0;
+}
+
+.col2Beneficios {
+    margin-left: 51%;
+    background-color: #f5f5f0;
+}
+
+.BeneficiosC {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #f5f5f0;
+}
+
+#Titulo {
+    background-color: #f5f5f0;
+}
+
+#mitad {
+    background-color: #f5f5f0;
+}
