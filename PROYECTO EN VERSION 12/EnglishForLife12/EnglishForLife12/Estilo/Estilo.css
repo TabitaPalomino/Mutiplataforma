@@ -62,7 +62,6 @@ header {
     color: white;
 }
 
-
 #footer1 {
     position: relative;
     left: 0;
@@ -74,27 +73,25 @@ header {
 
 .footermenu {
     float: left;
-    width: 24.5%;
+    width: 49.5%;
     text-align: center;
+    height: 150px;
 }
 
     .footermenu > h1 {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: normal;
         padding-top: 20px;
         padding-bottom: 10px;
     }
 
-    .footermenu > ul > li {
-        text-align: left;
+    .footermenu > a {
         font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
     }
-
-        .footermenu > ul > li > a {
-            text-decoration: none;
-            cursor: pointer;
-            color: white;
-        }
 
 #copy {
     border: 1px solid #3c9cea;

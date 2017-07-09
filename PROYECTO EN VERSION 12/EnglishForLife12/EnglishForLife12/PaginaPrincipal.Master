@@ -56,41 +56,20 @@
     </form>
 
 
-
-    <footer id="footer1">
+ <footer id="footer1">
         <div id="contenedor">
 
+
             <div id="Primera" class="footermenu">
-                <h1>VIEW OUR CATALOGUE</h1>
-                <ul>
-                    <li><a href="#">Básico</a></li>
-                    <li><a href="#">Intermedio</a></li>
-                    <li><a href="#">Avanzado</a></li>
-                </ul>
+                <h1>CONTACTO</h1>
+
+                <a href="Contacto.aspx">Escribenos aquí</a>
+
             </div>
 
             <div id="Segunda" class="footermenu">
-                <h1>LEARNING TOOLS</h1>
-                <ul>
-                    <li><a href="#">Dictionaries</a></li>
-                    <li><a href="#">Exams</a></li>
-                    <li><a href="#">Digital Tools</a></li>
-                </ul>
-            </div>
-
-            <div id="Tercera" class="footermenu">
-                <h1>CONTACT US</h1>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-
-            <div id="Cuarta" class="footermenu">
-                <h1>ABOUT US</h1>
-                <ul>
-                    <li><a href="#">About Usil For Live</a></li>
-                    <li><a href="#">Global Scale of English</a></li>
-                </ul>
+                <h1>NOSOTROS</h1>
+                <a href="Nosotros.aspx">Sobre Usil For Life</a>
             </div>
 
         </div>
