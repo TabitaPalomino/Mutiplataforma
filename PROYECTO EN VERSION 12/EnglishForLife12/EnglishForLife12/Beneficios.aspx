@@ -2,12 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section>
-        <img />
-    </section>
-    <div id="Titulo">
-        <p>Aprovecha todos estos beneficios!<br />
-            Te brindamos asesoria gratuita y constante durante todo el proceso</p>
+    
+<div id="Titulo">
+        <img src="../img/FondoEnglish.jpg"  />
     </div>
     
         <div class="BeneficiosC">

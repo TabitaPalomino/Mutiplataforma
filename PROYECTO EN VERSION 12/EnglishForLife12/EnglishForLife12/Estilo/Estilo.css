@@ -628,8 +628,11 @@ a {
     background-color: #f5f5f0;
 }
 
-#Titulo {
+#Titulo img {
     background-color: #f5f5f0;
+    width: 90%;
+    margin: 25px 0px 0px 70px;
+    text-shadow: 20px 12px 2px #687096;
 }
 
 #mitad {
