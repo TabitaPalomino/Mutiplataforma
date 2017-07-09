@@ -4,21 +4,19 @@ c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\Englis
 c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.csprojResolveAssemblyReference.cache
 c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.dll
 c:\users\cristhian\documents\visual studio 2013\Projects\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.pdb
-<<<<<<< HEAD
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll.config
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.pdb
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.dll
 C:\Users\User\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.pdb
-=======
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll.config
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.pdb
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.csprojResolveAssemblyReference.cache
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.dll
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.pdb
->>>>>>> 7afad48b620054107d7c14fb97598b7aba915562
+
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll.config
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.pdb
