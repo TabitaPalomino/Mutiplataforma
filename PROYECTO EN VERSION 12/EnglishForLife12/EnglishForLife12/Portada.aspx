@@ -21,7 +21,7 @@
                                   <a href="REalumno.aspx">Alumno</a>
                               </div>
                               <div class="cuadro1">
-                                  <a href="REmaesro.aspx">Profesor</a>
+                                  <a href="REmaestro.aspx">Profesor</a>
                               </div>
                     </div>
         
@@ -33,7 +33,7 @@
                                     <a href="Login.aspx">Alumno</a>
                                 </div>
                                  <div class="cuadro1">
-                                     <a href="#">Profesor</a>
+                                     <a href="LoginMaestro.aspx">Profesor</a>
                                  </div>
                         </div>
             </div>
