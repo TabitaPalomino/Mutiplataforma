@@ -27,7 +27,7 @@
                         <p>Fecha de Nacimiento</p>
                         <span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_0_g"><span>
                             <select aria-label="Día" name="birthday_day" id="day" title="Día" class="_5dba">
-                                <option value="0" selected="1">Día</option>
+                                <option value="0" selected>Día</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -62,7 +62,7 @@
                             </select>
                             
                             <select aria-label="Mes" name="birthday_month" id="month" title="Mes" class="_5dba">
-                                <option value="0" selected="1">Mes</option>
+                                <option value="0" selected">Mes</option>
                                 <option value="1">ene</option>
                                 <option value="2">feb</option>
                                 <option value="3">mar</option>
@@ -77,7 +77,7 @@
                                 <option value="12">dic</option>
                             </select>
                             <select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba">
-                                <option value="0" selected="1">Año</option>
+                                <option value="0" selected>Año</option>
                                 <option value="2016">2016</option>
                                 <option value="2015">2015</option>
                                 <option value="2014">2014</option>

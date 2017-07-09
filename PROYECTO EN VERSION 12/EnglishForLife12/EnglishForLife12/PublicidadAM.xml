@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAALSAAAAJDBiZTBjMjY2LTE5YTgtNGIwZC1hM2RjLWYxOTA2YjBlODYzNw.jpg</ImageUrl>
+    <NavigateUrl>https://www.linkedin.com/pulse/sideways-why-you-need-embrace-vertical-video-now-marc-wellin</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.noticiasdeacacias.com/wp-content/uploads/2015/10/160X-600.jpg</ImageUrl>
+    <NavigateUrl>http://www.noticiasdeacacias.com/steven-betancourt-un-campeon-de-la-vida/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.iab.cl/wp-content/uploads/2012/09/banner-vertical.jpg</ImageUrl>
+    <NavigateUrl>https://www.iab.cl/2012/09/26/que-es-ego-ampro-awards/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://lamusica.com.co/sites/default/files/BANNER%20IZQUIERDO%20CEPEDA.jpg</ImageUrl>
+    <NavigateUrl>http://www.lamusica.com.co/seccion/musica/cursos</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>https://dardomixcomunicacional.files.wordpress.com/2012/09/volante.jpg</ImageUrl>
+    <NavigateUrl>https://dardomixcomunicacional.wordpress.com/2012/09/18/publicidad-el-sabor-de-tomasa/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  
+  
+  
+</Advertisements>

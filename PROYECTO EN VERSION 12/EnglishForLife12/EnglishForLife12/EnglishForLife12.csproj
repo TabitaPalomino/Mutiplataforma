@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PaginaPrincipal.Master" />
+    <Content Include="PaginaMaestraAlumno.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -72,9 +74,10 @@
     <Content Include="Login.aspx" />
     <Content Include="LoginMaestro.aspx" />
     <Content Include="Nosotros.aspx" />
-    <Content Include="Perfil.aspx" />
     <Content Include="PerfilAsesor.aspx" />
+    <Content Include="PerfildeAlumno.aspx" />
     <Content Include="Portada.aspx" />
+    <Content Include="PublicidadAM.xml" />
     <Content Include="REalumno.aspx" />
     <Content Include="REmaestro.aspx" />
     <Content Include="Web.config" />
@@ -111,6 +114,13 @@
     <Compile Include="Nosotros.aspx.designer.cs">
       <DependentUpon>Nosotros.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PaginaMaestraAlumno.Master.cs">
+      <DependentUpon>PaginaMaestraAlumno.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaMaestraAlumno.Master.designer.cs">
+      <DependentUpon>PaginaMaestraAlumno.Master</DependentUpon>
+    </Compile>
     <Compile Include="PaginaPrincipal.Master.cs">
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,19 +128,19 @@
     <Compile Include="PaginaPrincipal.Master.designer.cs">
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
     </Compile>
-    <Compile Include="Perfil.aspx.cs">
-      <DependentUpon>Perfil.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Perfil.aspx.designer.cs">
-      <DependentUpon>Perfil.aspx</DependentUpon>
-    </Compile>
     <Compile Include="PerfilAsesor.aspx.cs">
       <DependentUpon>PerfilAsesor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PerfilAsesor.aspx.designer.cs">
       <DependentUpon>PerfilAsesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfildeAlumno.aspx.cs">
+      <DependentUpon>PerfildeAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfildeAlumno.aspx.designer.cs">
+      <DependentUpon>PerfildeAlumno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portada.aspx.cs">
       <DependentUpon>Portada.aspx</DependentUpon>
