@@ -7,21 +7,21 @@ using System.Web.UI.WebControls;
 
 namespace EnglishForLife12
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class ConfirmarOC : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void Unnamed1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PerfildeAlumno.aspx");
+            Response.Redirect("LoginMaestro.aspx");
         }
 
-        protected void Unnamed2_Click(object sender, EventArgs e)
+        protected void Unnamed1_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("REalumno.aspx");
+            Response.Redirect("LoginMaestro.aspx");
         }
     }
 }

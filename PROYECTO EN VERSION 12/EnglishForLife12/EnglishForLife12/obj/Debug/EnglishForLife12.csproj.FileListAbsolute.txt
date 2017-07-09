@@ -16,7 +16,6 @@ C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\E
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.csprojResolveAssemblyReference.cache
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.dll
 C:\Users\Juan Francisco\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\obj\Debug\EnglishForLife12.pdb
-
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll.config
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.dll
 C:\Users\Lenovo\Documents\GitHub\Mutiplataforma\PROYECTO EN VERSION 12\EnglishForLife12\EnglishForLife12\bin\EnglishForLife12.pdb

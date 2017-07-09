@@ -3,37 +3,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="Lcaja">
+    <div class="Lcaja" style="background-image:url('img/fondologinMaestro.png');">
         <div class="Lderecha">
             <div class="Lcaja-login">
-<<<<<<< HEAD
                 <h3 style="text-align:center;">INICIAR SESIÓN - MAESTRO</h3>
                 <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px;">Inicie sesion para disfrutar de todas las promociones y navegar sin restricciones. </p>
-=======
-                <h3 style="text-align:center;">INICIAR SESIÓN</h3>
-                <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px;">Inicie sesion para disfrutar de los beneficios como maestro y navegar sin restricciones. </p>
->>>>>>> 90a40d5cc3cf98f10d861666b3d65f4cda2e4f71
-                
+                <br />
                 <div class="Linput">
-                    <input type="text" name="form-username" placeholder="Correo electronico del maestro" class="form-control" id="form-username">
+                    <input type="text" name="form-username" placeholder="Correo electronico" class="form-control" id="form-username">
                     <br />
                     <input type="password" name="form-password" placeholder="Contraseña" class="form-control" id="form-password">
                 </div>
                 <br />
-                <a style="color:white; font-size: 12px;  margin-left:20px" href="#">Olvidaste tu contraseña. Click Aqui</a>
+                <a class="olvideMiC" href="OlvideMiContraseña.aspx">Olvide mi contraseña</a>
                 <br />
-                <a href="PerfildeAlumno.aspx">
-                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
-                        <p style="padding-top: 9px;">Iniciar Sesion</p>
-                    </div>
-                </a>
-                <p style="font-size: 13px; display:inline; text-align:center; margin-left:20px;">¿Aún no tienes cuenta?</p>
+                <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;"/>
                 <br />
-                <a href="REmaestro.aspx">
-                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
-                        <p style="padding-top: 9px;">Registrate</p>
-                    </div>
-                </a>
+                <p style="font-size: 13px; display:inline; text-align:center; margin-left:30px;">¿Aún no tienes cuenta?</p>
+                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" />
             </div>
         </div>
     </div>

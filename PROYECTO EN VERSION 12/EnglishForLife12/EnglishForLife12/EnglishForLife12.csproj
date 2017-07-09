@@ -59,6 +59,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConfirmarOC.aspx" />
+    <Content Include="ConfirmarOCAlum.aspx" />
+    <Content Include="OlvideContraseñaAlum.aspx" />
+    <Content Include="OlvideMiContraseña.aspx" />
     <Content Include="PaginaPrincipal.Master" />
     <Content Include="PaginaMaestraAlumno.Master" />
     <None Include="Web.Debug.config">
@@ -85,6 +89,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfirmarOC.aspx.cs">
+      <DependentUpon>ConfirmarOC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmarOC.aspx.designer.cs">
+      <DependentUpon>ConfirmarOC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmarOCAlum.aspx.cs">
+      <DependentUpon>ConfirmarOCAlum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmarOCAlum.aspx.designer.cs">
+      <DependentUpon>ConfirmarOCAlum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contacto.aspx.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,6 +133,20 @@
     </Compile>
     <Compile Include="Nosotros.aspx.designer.cs">
       <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OlvideContraseñaAlum.aspx.cs">
+      <DependentUpon>OlvideContraseñaAlum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvideContraseñaAlum.aspx.designer.cs">
+      <DependentUpon>OlvideContraseñaAlum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OlvideMiContraseña.aspx.cs">
+      <DependentUpon>OlvideMiContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvideMiContraseña.aspx.designer.cs">
+      <DependentUpon>OlvideMiContraseña.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestraAlumno.Master.cs">
       <DependentUpon>PaginaMaestraAlumno.Master</DependentUpon>

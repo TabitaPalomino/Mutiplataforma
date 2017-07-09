@@ -8,19 +8,19 @@
             <div class="Lcaja-login">
                 <h3 style="text-align:center;">INICIAR SESIÓN</h3>
                 <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px;">Inicie sesion para disfrutar de todas las promociones y navegar sin restricciones. </p>
-                
+                <br />
                 <div class="Linput">
                     <input type="text" name="form-username" placeholder="Correo electronico" class="form-control" id="form-username">
                     <br />
                     <input type="password" name="form-password" placeholder="Contraseña" class="form-control" id="form-password">
                 </div>
                 <br />
-                <a class="olvideMiC" href="#">Olvide mi contraseña</a>
+                <a class="olvideMiC" href="OlvideContraseñaAlum.aspx">Olvide mi contraseña</a>
                 <br />
-                <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;"/>
+                <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;" OnClick="Unnamed1_Click"/>
                 <br />
                 <p style="font-size: 13px; display:inline; text-align:center; margin-left:30px;">¿Aún no tienes cuenta?</p>
-                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" />
+                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" OnClick="Unnamed2_Click" />
             </div>
         </div>
     </div>
