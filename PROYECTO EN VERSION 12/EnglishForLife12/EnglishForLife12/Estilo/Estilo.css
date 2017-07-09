@@ -551,3 +551,7 @@ a {
 .olvideMiC {
     font-size: 14px; text-decoration:underline; text-align:center; margin-left:30%; color:white;
 }
+
+.Lcaja p {
+    margin: 3px;
+}

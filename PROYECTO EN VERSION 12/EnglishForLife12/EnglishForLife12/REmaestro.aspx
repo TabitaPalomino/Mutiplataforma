@@ -216,7 +216,11 @@
                     <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div class="Lboton">
-                    <input type="submit" name="ctl00$ContentPlaceHolder1$ctl00" value="Registrar" class="Buttonenviar" style="width: 50%; margin-left: 24%;">
+                    <a href="LoginMaestro.aspx">
+                        <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
+                            <p style="padding-top: 9px;">Registrate</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
