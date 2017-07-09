@@ -389,16 +389,16 @@ a {
     text-align: center;
 }
 /*-------------------PERFIL DE USUARIO------------------------------------------*/
-#izquierdaperfil {
+.izquierdaperfil {
     float: left;
     width: 25%;
 }
 
-#derechaperfil {
+.derechaperfil {
     margin-left: 25%;
 }
 
-#contenedorPerfil{
+.contenedorPerfil{
     height:600px;;
     width: 70%;
     border:2px solid blue;
@@ -438,11 +438,11 @@ a {
             text-decoration: none;
         }
 
-#foto {
+.foto {
     text-align: center;
 }
 
-    #foto > img {
+    .foto > img {
         height: 150px;
         width: 150px;
     }
