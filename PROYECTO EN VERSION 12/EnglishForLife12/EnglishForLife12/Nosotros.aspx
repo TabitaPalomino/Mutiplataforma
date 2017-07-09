@@ -11,7 +11,7 @@
 			Un alumno que es asesorado eficazmente y a tiempo, tiene muchas más oportunidades de 
 			optimizar su desempeño academico. Además, complementamos el aprendizaje con material 
             educativo dando la oportunidad de estudiar dependiendo si es Listening, Speaking, Reading o Writing.</p>
-        <img  src="img/QuienesSomos.jpg"/>
+        <img class="lele" src="img/QuienesSomos.jpg"/>
     </section>
     <section class="caja">
         <h2>MISIÓN</h2>
@@ -19,14 +19,14 @@
 		de metodologías que permiten a nuestros estudiantes alcanzar mayores niveles de apredizaje del lenguaje de ingles.
 		Para ello contamos con profesionales altamente cualificados con  amplia y reconocida experiencia.
 		Lo anterior garantiza a nuestra organización una sinergia de permanente crecimiento entre estudiates y profesionales.</p>
-        <img src="img/Mision.png"/>
+        <img class="lele" src="img/Mision.png"/>
     </section>
     <section class="caja">
         <h2>VISIÓN</h2>
         <p>Consolidarnos como una organización líder en el área de educación. Para 2023 seremos líderes 
 		por nuestros servicios innovadores y eficientes que generan confianza en la educación continua,
 		a través de la gestión integral de lo humano, la gestión del conocimiento y la responsabilidad social.</p>
-        <img id="lele"  src="img/Vision.jpg"/>
+        <img class="lele"  src="img/Vision.jpg"/>
     </section>
 
 </div>
