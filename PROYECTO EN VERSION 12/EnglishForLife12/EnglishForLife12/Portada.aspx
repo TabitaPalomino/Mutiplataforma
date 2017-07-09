@@ -48,7 +48,7 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>El inglés se habla en de todo el mundo</h3>
-                    <p>El inglés no es el idioma más hablado,pero viene en tercer lugar, después del español. Con 335 millones de hablantes nativos.</p>
+                    <p class="pRazones">El inglés no es el idioma más hablado,pero viene en tercer lugar, después del español. Con 335 millones de hablantes nativos.</p>
                 </section>
             </section>
             <section class="col2Razones">
@@ -56,20 +56,19 @@
                     <img src="img/Razon2.png" class="img-responsive" alt="Responsive image" />
                 </section>
                 <section class="razonesTexto1">
-                    <h3>Negocios internacionales requieren Inglés</h3>
-                    <p>En términos de comercio internacional, el inglés es el idioma para aprender. Cuando los chinos hacen negocios en Egipto, las negociaciones en inglés.</p>
+                    <h3>Negocios internacionales</h3>
+                    <p class="pRazones">Un ejemplo claro es cuando los chinos hacen negocios en Egipto, las negociaciones son inglés.</p>
                 </section>
             </section>
         </div>
-        <br />
         <div class="razonC">
             <section class="col1Razones">
                 <section class="razonesImg1">
                     <img src="img/Razon3.png" class="img-responsive" alt="Responsive image" />
                 </section>
                 <section class="razonesTexto1">
-                    <h3>Oportunidades de educación e investigación</h3>
-                    <p>Pensando en estudiar en el extranjero o publicar un trabajo de investigación? Lo más probable es que usted decida aprender inglés en algún momento del camino.</p>
+                    <h3>Oportunidades de educación</h3>
+                    <p class="pRazones">Piensas en estudiar en el extranjero? Usted debe aprender inglés en algún momento del camino.</p>
                 </section>
             </section>
             <section class="col2Razones">
@@ -78,11 +77,10 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>Un lenguaje perfecto para viajar</h3>
-                    <p>Si viaja a menudo, debes saber que el inglés es considerado el idioma internacional más popular.</p>
+                    <p class="pRazones">Si viaja a menudo, debes saber que el inglés es considerado el idioma internacional más popular.</p>
                 </section>
             </section>
         </div>
-        <br />
         <div class="razonC">
             <section class="col1Razones">
                 <section class="razonesImg1">
@@ -90,7 +88,7 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>El lenguaje del cine y la música</h3>
-                    <p>Si te gusta ir al cine y son fan de sitcoms, entonces el inglés debería estar en tu lista. Eso se debe a que muchas de las películas del mundo están escritas y producidas en inglés.</p>
+                    <p class="pRazones">Si te gusta ir al cine y son fan de sitcoms, entonces el inglés debería estar en tu lista. Eso se debe a que muchas de las películas del mundo están escritas y producidas en inglés.</p>
                 </section>
             </section>
             <section class="col2Razones">
@@ -99,7 +97,7 @@
                 </section>
                 <section class="razonesTexto1">
                     <h3>Hemingway y Harry Potter</h3>
-                    <p>El inglés ha estado alrededor por mucho tiempo y los escritores que hablan inglés han sido siempre un manojo prolífico, tanto en Gran Bretaña como en los Estados Unidos.</p>
+                    <p class="pRazones">El inglés ha estado alrededor por mucho tiempo y los escritores que hablan inglés han sido siempre un manojo prolífico, tanto en Gran Bretaña y Estados Unidos.</p>
                 </section>
             </section>
         </div>
