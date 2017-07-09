@@ -15,7 +15,7 @@
         <div id="vision2">
                     <div id="contenedor1"> 
                               <div class="contenidotitulo">
-                                  <p>Registrarse</p>
+                                  <p id="registrarse">Registrarse</p>
                               </div>
                               <div class="cuadro1">
                                   <a href="#">Alumno</a>
@@ -27,13 +27,13 @@
         
                      <div id="contenedor2">
                                 <div class="contenidotitulo">
-                                    <p>Iniciar Sesion</p>
+                                    <p id="sesion">Iniciar Sesion</p>
                                 </div>
                                 <div class="cuadro1">
-                                    <a href="#">Ingrese alumno</a>
+                                    <a href="#">Alumno</a>
                                 </div>
                                  <div class="cuadro1">
-                                     <a href="#">Ingrese profesor</a>
+                                     <a href="#">Profesor</a>
                                  </div>
                         </div>
             </div>
