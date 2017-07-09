@@ -11,7 +11,7 @@
 			Un alumno que es asesorado eficazmente y a tiempo, tiene muchas más oportunidades de 
 			optimizar su desempeño academico. Además, complementamos el aprendizaje con material 
             educativo dando la oportunidad de estudiar dependiendo si es Listening, Speaking, Reading o Writing.</p>
-        <img id="lele"  src="img/QuienesSomos.jpg"/>
+        <img  src="img/QuienesSomos.jpg"/>
     </section>
     <section class="caja">
         <h2>MISIÓN</h2>
@@ -19,7 +19,7 @@
 		de metodologías que permiten a nuestros estudiantes alcanzar mayores niveles de apredizaje del lenguaje de ingles.
 		Para ello contamos con profesionales altamente cualificados con  amplia y reconocida experiencia.
 		Lo anterior garantiza a nuestra organización una sinergia de permanente crecimiento entre estudiates y profesionales.</p>
-        <img id="lele" src="img/Mision.png"/>
+        <img src="img/Mision.png"/>
     </section>
     <section class="caja">
         <h2>VISIÓN</h2>
