@@ -18,7 +18,7 @@
                 <a style="font-size: 12px;" href="#">Olvidaste tu contraseña. Click Aqui</a>
                 <div class="Lboton">
                     <p class="LbotonB">
-                        <a href="#">Entrar</a>
+                        <a href="PerfildeAlumno.aspx">Entrar</a>
                     </p>
                 </div>
                 <p style="font-size: 12px;">¿Aún no tienes cuenta?</p>

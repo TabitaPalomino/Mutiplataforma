@@ -74,6 +74,7 @@
     <Content Include="Login.aspx" />
     <Content Include="LoginMaestro.aspx" />
     <Content Include="Nosotros.aspx" />
+    <Content Include="PANuevaAsesoria.aspx" />
     <Content Include="PerfilAsesor.aspx" />
     <Content Include="PerfildeAlumno.aspx" />
     <Content Include="Portada.aspx" />
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="PaginaPrincipal.Master.designer.cs">
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PANuevaAsesoria.aspx.cs">
+      <DependentUpon>PANuevaAsesoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PANuevaAsesoria.aspx.designer.cs">
+      <DependentUpon>PANuevaAsesoria.aspx</DependentUpon>
     </Compile>
     <Compile Include="PerfilAsesor.aspx.cs">
       <DependentUpon>PerfilAsesor.aspx</DependentUpon>

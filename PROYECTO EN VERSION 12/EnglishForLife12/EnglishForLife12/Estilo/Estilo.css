@@ -409,7 +409,6 @@ a {
 .contenedorPerfil{
     height:600px;;
     width: 70%;
-    border:2px solid blue;
 }
 .iconoperfil{
     float: left;
@@ -540,10 +539,16 @@ a {
     width:300px;
 }
 .PublicidadVer {
-    border: 2px solid red;
     width: 300px;
     height: 600px;
     float: right;
 }
-
-
+/*Pagina  Alumno Nueva Asesoria -------------------------------------------------------------------------------------------------------------------------*/
+.PAtittle{
+    text-align:center;
+}
+.PAcontenedor{
+    padding-left:20px;
+    border:2px solid red;
+    width:50%;
+}
