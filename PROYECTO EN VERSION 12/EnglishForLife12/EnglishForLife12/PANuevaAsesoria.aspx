@@ -28,7 +28,7 @@
 
                 <InsertItemTemplate>
                     HoraInicio:<br />
-                    <asp:DropDownList ID="DropDownList3" runat="server">
+                    <asp:DropDownList ID="DropDownList3" runat="server" SelectedValue='<%# Bind("HoraInicio") %>'>
                         <asp:ListItem Text="1 am" Value="01:00:00"></asp:ListItem>
                         <asp:ListItem Text="2 am" Value="02:00:00"></asp:ListItem>
                         <asp:ListItem Text="3 am" Value="03:00:00"></asp:ListItem>
