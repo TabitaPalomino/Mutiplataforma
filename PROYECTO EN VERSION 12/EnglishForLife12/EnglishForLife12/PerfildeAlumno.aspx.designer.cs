@@ -10,6 +10,6 @@
 namespace EnglishForLife12 {
     
     
-    public partial class PerfildeAlumno {
+    public partial class PerfildeAlumno2 {
     }
 }

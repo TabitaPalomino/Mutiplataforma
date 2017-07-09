@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace EnglishForLife12
 {
-    public partial class PerfildeAlumno : System.Web.UI.Page
+    public partial class PerfildeAlumno2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
