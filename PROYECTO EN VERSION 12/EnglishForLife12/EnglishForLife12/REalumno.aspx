@@ -13,7 +13,7 @@
                     <h2>Registro de Alumno</h2>
                     <div class="Rnombres">
                         <div class="Rnombre">
-                            <p>Nombre</p>
+                            <p id="REnombreAL">Nombre</p>
                             <input type="text" name="form-username" class="form-control" id="form-username">
                         </div>
                         <div class="Rapellido">

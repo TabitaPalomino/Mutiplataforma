@@ -24,101 +24,63 @@
             </ul>
         </div>
         <div class="derechaperfil">
-            <div class="contenedorPerfil">
-                <div class="PAtittle">
-                    <h2>Solicitar Nueva Asesoria</h2>
-                </div>
-                <div class="PAcontenedor">
-                    <div class="PAcalendario">
-                        <h3>Fecha</h3>
-                        <asp:Calendar SelectionMode="Day" ID="Calendar1" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" Width="220px" SelectedDate="2017-07-08" VisibleDate="2017-07-08">
-                            <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px"></DayHeaderStyle>
+            <asp:FormView DefaultMode="Insert" ID="FormView1" runat="server" DataKeyNames="Id" DataSourceID="SQLasesorias1">
 
-                            <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF"></NextPrevStyle>
+                <InsertItemTemplate>
+                    HoraInicio:<br />
 
-                            <OtherMonthDayStyle ForeColor="#999999"></OtherMonthDayStyle>
-
-                            <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99"></SelectedDayStyle>
-
-                            <SelectorStyle BackColor="#99CCCC" ForeColor="#336666"></SelectorStyle>
-
-                            <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px"></TitleStyle>
-
-                            <TodayDayStyle BackColor="#99CCCC" ForeColor="White"></TodayDayStyle>
-
-                            <WeekendDayStyle BackColor="#CCCCFF"></WeekendDayStyle>
+                    <asp:TextBox Text='<%# Bind("HoraInicio") %>' runat="server" ID="HoraInicioTextBox" /><br />
+                    Duracion:<br />
+                    <asp:TextBox Text='<%# Bind("Duracion") %>' runat="server" ID="DuracionTextBox" /><br />
+                    Nivel:<br />
+                    <asp:TextBox Text='<%# Bind("Nivel") %>' runat="server" ID="NivelTextBox" /><br />
+                    fecha:<br />
 
 
+                    <asp:Calendar ID="Calendar1" runat="server" SelectedDate='<%# Bind("fecha") %>' BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" Width="220px">
+                        <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px"></DayHeaderStyle>
 
-                        </asp:Calendar>
-                    </div>
-                    <div class="PAgrado">
-                        <h3>Hora de inicio</h3>
-                        <label>
-                            <select>
-                                <option selected value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
+                        <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF"></NextPrevStyle>
 
-                            </select>
-                        </label>
-                        <label>
-                            <select>
-                                <option value="am" selected>am</option>
-                                <option value="pm">pm</option>
-                                
-                            </select>
-                        </label>
-                    </div>
-                    <div class="PAgrado">
-                        <h3>Hora de Clase</h3>
-                        <label>
-                            <select>
-                                <option selected value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
+                        <OtherMonthDayStyle ForeColor="#999999"></OtherMonthDayStyle>
 
-                            </select>
-                        </label>
-                        
-                    </div>
-                    <div class="PAgrado">
-                        <h3>Grado</h3>
-                        <label>
-                            <select>
-                                <option selected>Seleccionar</option>
-                                <option value="Ingles 1">Ingles 1</option>
-                                <option value="Ingles 2">Ingles 2</option>
-                                <option value="Ingles 3">Ingles 3</option>
-                                <option value="Ingles 4">Ingles 4</option>
-                                <option value="Ingles 5">Ingles 5</option>
-                                <option value="Ingles 6">Ingles 6</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="Lboton">
-                    <p class="LbotonB">
-                        <a href="REalumno.aspx">Solicitar Tutoria</a>
-                    </p>
-                </div>
-                </div>
+                        <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99"></SelectedDayStyle>
 
-            </div>
+                        <SelectorStyle BackColor="#99CCCC" ForeColor="#336666"></SelectorStyle>
+
+                        <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px"></TitleStyle>
+
+                        <TodayDayStyle BackColor="#99CCCC" ForeColor="White"></TodayDayStyle>
+
+                        <WeekendDayStyle BackColor="#CCCCFF"></WeekendDayStyle>
+                    </asp:Calendar>
+
+                    <asp:Button runat="server" Text="Guardar Noticia" CommandName="Insert" ID="InsertButton" CausesValidation="True" />&nbsp;
+                    <asp:Button runat="server" Text="Cancelar" CommandName="Cancel" ID="InsertCancelButton" CausesValidation="False" />
+                </InsertItemTemplate>
+
+            </asp:FormView>
+            <asp:SqlDataSource runat="server" ID="SQLasesorias1" ConnectionString='<%$ ConnectionStrings:UsilForLiveConnectionString2 %>' DeleteCommand="DELETE FROM [Asesorias] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Asesorias] ([HoraInicio], [Duracion], [Nivel], [fecha]) VALUES (@HoraInicio, @Duracion, @Nivel, @fecha)" SelectCommand="SELECT * FROM [Asesorias]" UpdateCommand="UPDATE [Asesorias] SET [HoraInicio] = @HoraInicio, [Duracion] = @Duracion, [Nivel] = @Nivel, [fecha] = @fecha WHERE [Id] = @Id">
+                <DeleteParameters>
+                    <asp:Parameter Name="Id" Type="Int32"></asp:Parameter>
+                </DeleteParameters>
+                <InsertParameters>
+                    <asp:Parameter DbType="Time" Name="HoraInicio"></asp:Parameter>
+                    <asp:Parameter Name="Duracion" Type="Int32"></asp:Parameter>
+                    <asp:Parameter Name="Nivel" Type="String"></asp:Parameter>
+                    <asp:Parameter Name="fecha" Type="DateTime"></asp:Parameter>
+                </InsertParameters>
+                <UpdateParameters>
+                    <asp:Parameter DbType="Time" Name="HoraInicio"></asp:Parameter>
+                    <asp:Parameter Name="Duracion" Type="Int32"></asp:Parameter>
+                    <asp:Parameter Name="Nivel" Type="String"></asp:Parameter>
+                    <asp:Parameter Name="fecha" Type="DateTime"></asp:Parameter>
+                    <asp:Parameter Name="Id" Type="Int32"></asp:Parameter>
+                </UpdateParameters>
+            </asp:SqlDataSource>
+            <div class="sostiene">asdasdad</div>
+
         </div>
         <div class="sostiene">asdasdad</div>
-
     </div>
-    <div class="sostiene">asdasdad</div>
 </asp:Content>

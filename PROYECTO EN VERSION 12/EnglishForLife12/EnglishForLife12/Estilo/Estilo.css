@@ -383,6 +383,7 @@ a {
 
 .Linput h2 {
     text-align: center;
+    margin: 11px;
 }
 /*-------------------PERFIL DE USUARIO------------------------------------------*/
 .izquierdaperfil {
@@ -551,7 +552,13 @@ a {
 .olvideMiC {
     font-size: 14px; text-decoration:underline; text-align:center; margin-left:30%; color:white;
 }
+/*Arreglos -------------------------------------------------------------------------------------------------------------------------*/
+
+#REnombreAL, #REnombreMA { /*No cambien el id por clase -------------------------------------------------------------------------------------------------------------------------*/
+    margin-top: 0;
+}
 
 .Lcaja p {
-    margin: 3px;
+    margin: 7px;
 }
+
