@@ -167,12 +167,16 @@ header {
     float: left;
     margin: 0px 10px 10px 40px;
     background-color: #0D3B63;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px #090909;
 }
 
 #contenedor2 {
     height: 200px;
     margin: 10px 30px 10px 52%;
     background-color: #0D3B63;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px #090909;
 }
 
 #contenedor2 #sesion{
@@ -538,16 +542,16 @@ a {
     height: 600px;
     float: right;
 }
-<<<<<<< HEAD
+
 /*Pagina  Alumno Nueva Asesoria -------------------------------------------------------------------------------------------------------------------------*/
 .PAtittle{
     text-align:center;
 }
-.PAcontenedor{
-    padding-left:20px;
-    border:2px solid red;
-    width:50%;
-=======
+.PAcontenedor {
+    padding-left: 20px;
+    border: 2px solid red;
+    width: 50%;
+}
 
 .pRazones{
     text-align:justify;
@@ -555,6 +559,9 @@ a {
 }
 
 .olvideMiC {
-    font-size: 14px; text-decoration:underline; text-align:center; margin-left:30%; color:white;
->>>>>>> 02f2e450efc2704a885d18b00c0213120e68a561
+    font-size: 14px; 
+    text-decoration:underline; 
+    text-align:center;
+    margin-left:30%; 
+    color:white;
 }

@@ -6,7 +6,7 @@
     <div class="Lcaja">
         <div class="Lderecha">
             <div class="Lcaja-login">
-                <h3 style="text-align:center;">INICIAR SESIÓN</h3>
+                <h3 style="text-align:center;">INICIAR SESIÓN - MAESTRO</h3>
                 <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px;">Inicie sesion para disfrutar de todas las promociones y navegar sin restricciones. </p>
                 
                 <div class="Linput">

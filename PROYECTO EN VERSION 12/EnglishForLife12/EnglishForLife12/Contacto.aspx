@@ -11,7 +11,7 @@
                 <input type="text" class="form1" name="ApellidoM" placeholder="Apellido Materno">
                 <input type="text" class="form1" name="Telefono" placeholder="Telefono/Casa">
                 <input type="text" class="form1" name="Email" placeholder="Email">
-                <textarea style="font-family: Verdana; font-size: 14px; height:150px" name="Comentario" class="form1" placeholder="Escribe tus dudas..."></textarea>
+                <textarea style="font-family: Verdana; font-size: 14px; height:150px" name="Comentario" class="form1" placeholder="Comentarios, sugerencias o preguntas"></textarea>
                 
                 <asp:Button class="Buttonenviar" runat="server" Text="Enviar" />
                              
