@@ -7,7 +7,7 @@
         <div class="Lderecha">
             <div class="Lcaja-login">
                 <h3 style="text-align:center;">INICIAR SESIÓN</h3>
-                <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px;">Inicie sesion para disfrutar de todas las promociones y navegar sin restricciones. </p>
+                <p style="font-size:smaller; text-align:center; padding:0px 7px 1px 7px">Inicie sesion para disfrutar de todas las promociones y navegar sin restricciones. </p>
                 
                 <div class="Linput">
                     <input type="text" name="form-username" placeholder="Correo electronico" class="form-control" id="form-username">
@@ -15,27 +15,15 @@
                     <input type="password" name="form-password" placeholder="Contraseña" class="form-control" id="form-password">
                 </div>
                 <br />
-<<<<<<< HEAD
-                <a style="font-size: 12px;" href="#">Olvidaste tu contraseña. Click Aqui</a>
-                <div class="Lboton">
-                    <p class="LbotonB">
-                        <a href="PerfildeAlumno.aspx">Entrar</a>
-                    </p>
-                </div>
-                <p style="font-size: 12px;">¿Aún no tienes cuenta?</p>
-                <div class="Lboton">
-                    <p class="LbotonB">
-                        <a href="REalumno.aspx">Registrate</a>
-                    </p>
-                </div>
-=======
-                <a class="olvideMiC" href="#">Olvide mi contraseña</a>
-                <br />
+
+                <a style="font-size: 12px;  margin-left:20px" href="#">Olvidaste tu contraseña. Click Aqui</a>
                 <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;"/>
                 <br />
-                <p style="font-size: 13px; display:inline; text-align:center; margin-left:30px;">¿Aún no tienes cuenta?</p>
-                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" />
->>>>>>> 02f2e450efc2704a885d18b00c0213120e68a561
+                <br />
+                <p style="font-size: 13px; display:inline; text-align:center; margin-left:20px;">¿Aún no tienes cuenta?</p>
+                <br />
+                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" style="width:50%; margin-left:24%;" />
+
             </div>
         </div>
     </div>

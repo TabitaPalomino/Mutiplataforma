@@ -18,10 +18,10 @@
                                   <p id="registrarse">Registrarse</p>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Alumno</a>
+                                  <a href="REalumno.aspx">Alumno</a>
                               </div>
                               <div class="cuadro1">
-                                  <a href="#">Profesor</a>
+                                  <a href="REmaesro.aspx">Profesor</a>
                               </div>
                     </div>
         
@@ -30,7 +30,7 @@
                                     <p id="sesion">Iniciar Sesion</p>
                                 </div>
                                 <div class="cuadro1">
-                                    <a href="#">Alumno</a>
+                                    <a href="Login.aspx">Alumno</a>
                                 </div>
                                  <div class="cuadro1">
                                      <a href="#">Profesor</a>

@@ -297,7 +297,7 @@ a {
 
 /*Iniciar Sesion*/
 .Lcaja {
-    min-height: 566px;
+    min-height: 618px;
     background-image: url('../img/BackgroundLoginAlumno.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -381,9 +381,6 @@ a {
     border-radius: 4px;
 }
 
-.LbotonB {
-    padding-top: 10px;
-}
 
 #Linput h2 {
     text-align: center;
