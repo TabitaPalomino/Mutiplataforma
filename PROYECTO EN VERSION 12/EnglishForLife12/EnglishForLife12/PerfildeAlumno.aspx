@@ -3,8 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div style="padding-top: 75px;" class="contenedorPerfilA">
-        <div id="izquierdaperfil" class="menu">
-            <div id="foto">
+        <div class="izquierdaperfil menu">
+            <div class="foto">
                 <h4>Jhonatan Chavez</h4>
                 <h5>Rango:Alumno</h5>
                 <img src="img/fotoperfil.jpg" />
@@ -22,8 +22,8 @@
                 <li><a href="#">Postular a Alumno Asesor</a></li>
             </ul>
         </div>
-        <div id="derechaperfil">
-            <div id="contenedorPerfil">
+        <div class="derechaperfil">
+            <div class="contenedorPerfil">
                 <div class="iconos">
                     <div class="iconoperfil">
                         <a href="#">
