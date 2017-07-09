@@ -12,7 +12,7 @@
             <h4>Información de Cuenta</h4>
             <ul>
                 <li><a href="#">Datos Personales</a></li>
-                <li><a href="#">Historial de Cursos</a></li>
+                <li><a href="#">Mis tutorias</a></li>
                 <li><a href="#">Pagos Realizados</a></li>
             </ul>
             <h4>Opciones de Cursos </h4>
@@ -34,13 +34,7 @@
                     <div class="iconoperfil">
                         <a href="#">
                             <img src="img/talleres.png" />
-                            <h2>Talleres</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/practicas.png" />
-                            <h2>Practicas</h2>
+                            <h2>Ejercicios propuestos</h2>
                         </a>
                     </div>
                     <div class="iconoperfil">

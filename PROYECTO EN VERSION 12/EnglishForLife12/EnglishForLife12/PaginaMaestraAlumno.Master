@@ -24,9 +24,7 @@
             
             &nbsp;     &nbsp; 
            
-            <label>
-                Cerrar Sesion
-            </label>
+            <a href="Portada.aspx">Cerrar Sesión</a>
             &nbsp;     &nbsp; 
            
         </section>
