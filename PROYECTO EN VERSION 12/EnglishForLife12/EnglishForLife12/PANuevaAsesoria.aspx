@@ -28,15 +28,54 @@
 
                 <InsertItemTemplate>
                     HoraInicio:<br />
-
-                    <asp:TextBox Text='<%# Bind("HoraInicio") %>' runat="server" ID="HoraInicioTextBox" /><br />
+                    <asp:DropDownList ID="DropDownList3" runat="server">
+                        <asp:ListItem Text="1 am" Value="01:00:00"></asp:ListItem>
+                        <asp:ListItem Text="2 am" Value="02:00:00"></asp:ListItem>
+                        <asp:ListItem Text="3 am" Value="03:00:00"></asp:ListItem>
+                        <asp:ListItem Text="4 am" Value="04:00:00"></asp:ListItem>
+                        <asp:ListItem Text="5 am" Value="05:00:00"></asp:ListItem>
+                        <asp:ListItem Text="6 am" Value="06:00:00"></asp:ListItem>
+                        <asp:ListItem Text="7 am" Value="07:00:00"></asp:ListItem>
+                        <asp:ListItem Text="8 am" Value="08:00:00"></asp:ListItem>
+                        <asp:ListItem Text="9 am" Value="09:00:00"></asp:ListItem>
+                        <asp:ListItem Text="10 am" Value="10:00:00"></asp:ListItem>
+                        <asp:ListItem Text="11 am" Value="11:00:00"></asp:ListItem>
+                        <asp:ListItem Text="12 pm" Value="12:00:00"></asp:ListItem>
+                        <asp:ListItem Text="1 pm" Value="13:00:00"></asp:ListItem>
+                        <asp:ListItem Text="2 pm" Value="14:00:00"></asp:ListItem>
+                        <asp:ListItem Text="3 pm" Value="15:00:00"></asp:ListItem>
+                        <asp:ListItem Text="4 pm" Value="16:00:00"></asp:ListItem>
+                        <asp:ListItem Text="5 pm" Value="17:00:00"></asp:ListItem>
+                        <asp:ListItem Text="6 pm" Value="18:00:00"></asp:ListItem>
+                        <asp:ListItem Text="7 pm" Value="19:00:00"></asp:ListItem>
+                        <asp:ListItem Text="8 pm" Value="20:00:00"></asp:ListItem>
+                        <asp:ListItem Text="9 pm" Value="21:00:00"></asp:ListItem>
+                        <asp:ListItem Text="10 pm" Value="22:00:00"></asp:ListItem>
+                        <asp:ListItem Text="11 pm" Value="23:00:00"></asp:ListItem>
+                        <asp:ListItem Text="12 am" Value="24:00:00"></asp:ListItem>
+                    </asp:DropDownList> 
+                    <br />
                     Duracion:<br />
-                    <asp:TextBox Text='<%# Bind("Duracion") %>' runat="server" ID="DuracionTextBox" /><br />
+                    <asp:DropDownList ID="DropDownList2" runat="server" SelectedValue='<%# Bind("Duracion") %>'>
+                        <asp:ListItem Text="1 Hora" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="2 Hora" Value="2"></asp:ListItem>
+                        <asp:ListItem Text="3 Hora" Value="3"></asp:ListItem>
+                        <asp:ListItem Text="4 Hora" Value="4"></asp:ListItem>
+                        <asp:ListItem Text="5 Hora" Value="5"></asp:ListItem>
+                        <asp:ListItem Text="6 Hora" Value="6"></asp:ListItem>
+                    </asp:DropDownList>
+                    <br />
                     Nivel:<br />
-                    <asp:TextBox Text='<%# Bind("Nivel") %>' runat="server" ID="NivelTextBox" /><br />
+                    <asp:DropDownList ID="DropDownList1" runat="server" SelectedValue='<%# Bind("Nivel") %>'>
+                        <asp:ListItem Text="Ingles 1" Value="Ingles 1"></asp:ListItem>
+                        <asp:ListItem Text="Ingles 2" Value="Ingles 2"></asp:ListItem>
+                        <asp:ListItem Text="Ingles 3" Value="Ingles 3"></asp:ListItem>
+                        <asp:ListItem Text="Ingles 4" Value="Ingles 4"></asp:ListItem>
+                        <asp:ListItem Text="Ingles 5" Value="Ingles 5"></asp:ListItem>
+                        <asp:ListItem Text="Ingles 6" Value="Ingles 6"></asp:ListItem>
+                    </asp:DropDownList>
+                    <br />
                     fecha:<br />
-
-
                     <asp:Calendar ID="Calendar1" runat="server" SelectedDate='<%# Bind("fecha") %>' BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" Width="220px">
                         <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px"></DayHeaderStyle>
 
@@ -54,8 +93,7 @@
 
                         <WeekendDayStyle BackColor="#CCCCFF"></WeekendDayStyle>
                     </asp:Calendar>
-
-                    <asp:Button runat="server" Text="Guardar Noticia" CommandName="Insert" ID="InsertButton" CausesValidation="True" />&nbsp;
+                    <asp:Button runat="server" Text="Guardar Asesoria" CommandName="Insert" ID="InsertButton" CausesValidation="True" />&nbsp;
                     <asp:Button runat="server" Text="Cancelar" CommandName="Cancel" ID="InsertCancelButton" CausesValidation="False" />
                 </InsertItemTemplate>
 
