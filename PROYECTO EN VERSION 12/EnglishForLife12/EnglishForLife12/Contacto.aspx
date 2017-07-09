@@ -4,47 +4,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div id="banner">
-
-            <div id="contactanos">
-
-                <p id="num1">Contáctanos</p>
-                <p id="num2">Escribenos o llámanos</p>
-            
-            </div>
-
-            <div id="formulario">
-                <div class="paraform">
+           <h1 class="num1">Contáctanos</h1>
+        <div id="formulario">
                 <input type="text" class="form1" name="Nombre" placeholder="Nombres">
-                </div>
-
-                <div class="paraform">
                 <input type="text" class="form1" name="ApellidoP" placeholder="Apellido Paterno">
-                </div>
-
-                <div class="paraform">
                 <input type="text" class="form1" name="ApellidoM" placeholder="Apellido Materno">
-                </div>
-
-                <div class="paraform">
                 <input type="text" class="form1" name="Telefono" placeholder="Telefono/Casa">
-                </div>
-
-                <div class="paraform">
                 <input type="text" class="form1" name="Email" placeholder="Email">
-                </div>
-
-                <div class="paraform">
-                <textarea name="Comentario" class="form1" placeholder="Comentario" style="height:150px"></textarea>
-                </div>
-
-                <div id="Lboton">
-                 <p class="LbotonB"><a href="#">Entrar</a></p>
-              </div>
-
-              
-            </div>                          
+                <textarea style="font-family: Verdana; font-size: 14px; height:150px" name="Comentario" class="form1" placeholder="Escribe tus dudas..."></textarea>
+                
+                <asp:Button class="Buttonenviar" runat="server" Text="Enviar" />
+                             
+           </div>  
     </div>
-
-
 </asp:Content>
 

@@ -224,83 +224,69 @@ a {
 
 
 #banner {
-    background-image: url(http://st2.depositphotos.com/1252160/5378/i/950/depositphotos_53786169-stock-photo-student-learning-english-2.jpg);
+    background-image: url('../img/FondoContactenos.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 1407px;
+    width: 1237px;
     margin-top: 75px;
     min-height: 100%;
-    position: relative;
+    background-image: url('../img/FondoContactenostransparente.png');
 }
 
     #banner #contactanos {
         width: 1407px;
         height: 250px;
-        /*background-color: #3c9cea;*/
        
     }
 
-#contactanos #num1 {
-    font-size: 50px;
+.num1 {
+    padding-top:30px;
+    font-size:40px;
     text-align: center;
     font-weight: bold;
-    color: #003057;
-    padding: 10px;
-}
-
-#contactanos #num2 {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: #003057;
-    padding: 10px;
+    color: black;
 }
 
 
 #banner #formulario {
-    width: 1407px;
+    text-align:center;
+    width: 100%;
     height: 695px;
    
 }
 
-#formulario #paraform {
-    padding: 10px;
-    
+#formulario > input, #formulario > textarea{
+    color:black;
 }
-
-
 .form1 {
     border: 3px solid #A6ADCB;
     display: block;
-    width: 60%;
+    width: 30%;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    height: 60px;
+    height: 30px;
     padding: 5px 20px;
-    background-color: transparent;
 }
 
-
-.Lboton {
+.Buttonenviar {
     margin-top: 10px;
     height: 40px;
-    background: #1AAE88;
+    background-color: #ff6a00;
     border: 0;
     font-size: 16px;
     color: #fff;
     border-radius: 4px;
-    margin-left: 25%;
-    width: 50%;
+    width: 10%;
     margin-top: 8px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-/*Iniciar Sesion--------------------------------------------------------------------------*/
+/*Iniciar Sesion*/
 #Lcaja {
     margin: auto;
     height: 900px;
