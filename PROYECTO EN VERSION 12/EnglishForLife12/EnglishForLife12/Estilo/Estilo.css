@@ -324,12 +324,14 @@ a {
 
 .Rnombre {
     float: left;
-    width: 49%;
+    width: 45%;
+    margin-left:19px;
 }
 
 .Rapellido {
-    margin-left: 50%;
+    margin-left: 45%;
     width: 46%;
+    margin-right: 19px;
 }
 
 .RmaestroCd {

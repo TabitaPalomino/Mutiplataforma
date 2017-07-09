@@ -3,25 +3,23 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="Lcaja">
-        <div class="Lizquierda">
-        </div>
+    <div class="Lcaja" style="background-size:110%">
         <div class="Lderecha">
-            <div class="RmaestroCd">
+            <div class="RmaestroCd" style="margin-bottom:20px;">
 
                 <div class="Linput">
-                    <h2>Registro de Alumno</h2>
+                    <h2 style="margin-bottom:10px;">CREAR UNA NUEVA CUENTA</h2>
+                    
                     <div class="Rnombres">
+                        <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Nombres" class="form-control" id="form-username1">
+                    
                         <div class="Rnombre">
-                            <p id="REnombreAL">Nombre</p>
-                            <input type="text" name="form-username" class="form-control" id="form-username">
+                            <input type="text" name="form-username" class="form-control" id="form-username" placeholder="Apellido Paterno">
                         </div>
                         <div class="Rapellido">
-                            <p>Apellidos</p>
-                            <input type="text" name="form-username" class="form-control">
+                             <input type="text" name="form-username" class="form-control" id="form-username2" placeholder="Apellido Materno">
                         </div>
                     </div>
-                    <div class="sostiene"></div>
                     <div class="REnaci2">
                         <p>Fecha de Nacimiento</p>
                         <span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_0_g"><span>
@@ -76,22 +74,6 @@
                             </select>
                             <select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba">
                                 <option value="0" selected>Año</option>
-                                <option value="2017">2017</option>
-                                <option value="2016">2016</option>
-                                <option value="2015">2015</option>
-                                <option value="2014">2014</option>
-                                <option value="2013">2013</option>
-                                <option value="2012">2012</option>
-                                <option value="2011">2011</option>
-                                <option value="2010">2010</option>
-                                <option value="2009">2009</option>
-                                <option value="2008">2008</option>
-                                <option value="2007">2007</option>
-                                <option value="2006">2006</option>
-                                <option value="2005">2005</option>
-                                <option value="2004">2004</option>
-                                <option value="2003">2003</option>
-                                <option value="2002">2002</option>
                                 <option value="2001">2001</option>
                                 <option value="2000">2000</option>
                                 <option value="1999">1999</option>
@@ -191,24 +173,14 @@
                                 <option value="1905">1905</option>
                             </select></span></span>
                     </div>
-
-                    <p>Correo</p>
-                    <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control">
-                    <p>Contraseña</p>
-                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
-
-                    <p>Correo Alternativo</p>
-                    <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
-                </div>
-                <div class="Lboton">
-                    <a href="Login.aspx">
-                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
-                        <p style="padding-top: 9px;">Registrate</p>
-                    </div>
-                </a>
-                </div>
+                    <br />
+                    <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Correo Electronico" class="form-control" id="form-username3">
+                    <input type="password" style="margin-bottom:10px;" name="form-username" placeholder="Contraseña" class="form-control" id="form-username4">
+                    <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Correo Electronico Alternativo" class="form-control" id="form-username5">
+                    <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Celular/Telefono" class="form-control" id="form-username6">
+                 </div>
+                <asp:Button class="Buttonenviar" runat="server" Text="Registrarse" style="width:50%; margin-left:24%;"/>
             </div>
         </div>
     </div>
-    <div class="sostiene"></div>
 </asp:Content>
