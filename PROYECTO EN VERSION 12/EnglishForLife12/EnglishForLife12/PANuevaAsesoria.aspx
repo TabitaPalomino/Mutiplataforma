@@ -110,7 +110,7 @@
                     </div>
                     <div class="Lboton">
                     <p class="LbotonB">
-                        <a href="REalumno.aspx">Registrate</a>
+                        <a href="REalumno.aspx">Solicitar Tutoria</a>
                     </p>
                 </div>
                 </div>
