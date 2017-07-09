@@ -15,14 +15,20 @@
                     <input type="password" name="form-password" placeholder="Contraseña" class="form-control" id="form-password">
                 </div>
                 <br />
-                <a style="font-size: 12px;  margin-left:20px" href="#">Olvidaste tu contraseña. Click Aqui</a>
+                <a style="color:white; font-size: 12px;  margin-left:20px" href="#">Olvidaste tu contraseña. Click Aqui</a>
                 <br />
-                <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;"/>
+                <a href="PerfildeAlumno.aspx">
+                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
+                        <p style="padding-top: 9px;">Iniciar Sesion</p>
+                    </div>
+                </a>
+                <p style="font-size: 13px; display:inline; text-align:center; margin-left:20px;">¿Aún no tienes cuenta?</p>
                 <br />
-                <br />
-                <p style="font-size: 13px; display:inline; text-align:center; margin-left:30px;">¿Aún no tienes cuenta?</p>
-                <br />
-                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" style="width:50%; margin-left:24%;"/>
+                <a href="REmaestro.aspx">
+                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
+                        <p style="padding-top: 9px;">Registrate</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

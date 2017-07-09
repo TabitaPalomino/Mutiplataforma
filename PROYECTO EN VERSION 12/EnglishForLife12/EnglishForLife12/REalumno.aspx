@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="REalumno.aspx.cs" Inherits="EnglishForLife12.REalumno" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -7,17 +8,17 @@
         </div>
         <div class="Lderecha">
             <div class="RmaestroCd">
-                
+
                 <div class="Linput">
                     <h2>Registro de Alumno</h2>
                     <div class="Rnombres">
                         <div class="Rnombre">
                             <p>Nombre</p>
-                            <input type="text" name="form-username" placeholder="Nombre..." class="form-control" id="form-username">
+                            <input type="text" name="form-username" class="form-control" id="form-username">
                         </div>
                         <div class="Rapellido">
                             <p>Apellidos</p>
-                            <input type="text" name="form-username" placeholder="Apellidos..." class="form-control">
+                            <input type="text" name="form-username" class="form-control">
                         </div>
                     </div>
                     <div class="sostiene"></div>
@@ -191,18 +192,16 @@
                             </select></span></span>
                     </div>
 
-                <p>Correo</p>
+                    <p>Correo</p>
                     <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control">
-                <p>Contraseña</p>
-                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">                    
-                
-                <p>Correo Alternativo</p>
+                    <p>Contraseña</p>
+                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+
+                    <p>Correo Alternativo</p>
                     <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div class="Lboton">
-                    <p  class="LbotonB">
-                        <a href="Login.aspx">Registrar</a>
-                    </p>
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$ctl00" value="Registrar" class="Buttonenviar" style="width: 50%; margin-left: 24%;">
                 </div>
             </div>
         </div>
