@@ -1,31 +1,32 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="REalumno.aspx.cs" Inherits="EnglishForLife12.REalumno" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="Lcaja">
-        <div id="Lizquierda">
+    <div class="Lcaja">
+        <div class="Lizquierda">
         </div>
-        <div id="Lderecha">
-            <div id="RmaestroCd">
-                
-                <div id="Linput">
+        <div class="Lderecha">
+            <div class="RmaestroCd">
+
+                <div class="Linput">
                     <h2>Registro de Alumno</h2>
-                    <div id="Rnombres">
-                        <div id="Rnombre">
-                            <p>Nombre</p>
-                            <input type="text" name="form-username" placeholder="Nombre..." class="form-control" id="form-username">
+                    <div class="Rnombres">
+                        <div class="Rnombre">
+                            <p id="REnombreAL">Nombre</p>
+                            <input type="text" name="form-username" class="form-control" id="form-username">
                         </div>
-                        <div id="Rapellido">
+                        <div class="Rapellido">
                             <p>Apellidos</p>
-                            <input type="text" name="form-username" placeholder="Apellidos..." class="form-control">
+                            <input type="text" name="form-username" class="form-control">
                         </div>
                     </div>
                     <div class="sostiene"></div>
-                    <div id="REnaci2">
+                    <div class="REnaci2">
                         <p>Fecha de Nacimiento</p>
                         <span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_0_g"><span>
                             <select aria-label="Día" name="birthday_day" id="day" title="Día" class="_5dba">
-                                <option value="0" selected="1">Día</option>
+                                <option value="0" selected>Día</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -59,7 +60,7 @@
                                 <option value="31">31</option>
                             </select>
                             <select aria-label="Mes" name="birthday_month" id="month" title="Mes" class="_5dba">
-                                <option value="0" selected="1">Mes</option>
+                                <option value="0" selected>Mes</option>
                                 <option value="1">ene</option>
                                 <option value="2">feb</option>
                                 <option value="3">mar</option>
@@ -74,7 +75,7 @@
                                 <option value="12">dic</option>
                             </select>
                             <select aria-label="Año" name="birthday_year" id="year" title="Año" class="_5dba">
-                                <option value="0" selected="1">Año</option>
+                                <option value="0" selected>Año</option>
                                 <option value="2017">2017</option>
                                 <option value="2016">2016</option>
                                 <option value="2015">2015</option>
@@ -191,18 +192,20 @@
                             </select></span></span>
                     </div>
 
-                <p>Correo</p>
+                    <p>Correo</p>
                     <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control">
-                <p>Contraseña</p>
-                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">                    
-                
-                <p>Correo Alternativo</p>
+                    <p>Contraseña</p>
+                    <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+
+                    <p>Correo Alternativo</p>
                     <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div class="Lboton">
-                    <p  class="LbotonB">
-                        <a href="Login.aspx">Registrar</a>
-                    </p>
+                    <a href="Login.aspx">
+                    <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
+                        <p style="padding-top: 9px;">Registrate</p>
+                    </div>
+                </a>
                 </div>
             </div>
         </div>

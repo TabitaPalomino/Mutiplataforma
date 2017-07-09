@@ -1,12 +1,12 @@
 ﻿body {
     font-family: Verdana;
-    margin: 0px;
+    margin: 0;
     height: 100%;
 }
 
 
     body > form > div {
-        height: 0px;
+        height: 0;
     }
 
 
@@ -16,7 +16,7 @@ header {
     position: fixed;
     background-color: white;
     width: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
 #izquierda {
@@ -37,7 +37,7 @@ header {
     #derecha > a, #derecha > label > select {
         font-family: Verdana;
         border: none;
-        outline: 0px;
+        outline: 0;
         text-decoration: none;
         color: black;
         cursor: pointer;
@@ -65,8 +65,8 @@ header {
 
 #footer1 {
     position: relative;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     height: 200px;
     width: 100%;
     clear: both;
@@ -107,21 +107,21 @@ header {
 
 
 /* LOGIN -----------------------------------------------------------------------------------------*/
-#lol {
+.lol {
     width: 100%;
 }
 
-#REnaci {
+.REnaci {
     float: left;
     width: 50%;
     text-align: center;
 }
 
-#REnaci2 {
+.REnaci2 {
     text-align: center;
 }
 
-#REgrado {
+.REgrado {
     border-left: 2px solid black;
     margin-left: 54%;
     text-align: center;
@@ -143,7 +143,7 @@ header {
 #mitad2 {
     width: 100%;
     min-height: 400px;
-    margin: 5px 0px;
+    margin: 5px 0;
     background-image: url('http://talib.pk/wp-content/uploads/2016/04/Best-College-For-English-Language-Course-In-Lahore.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ header {
     width: 43%;
     height: 200px;
     float: left;
-    margin: 0px 10px 10px 40px;
+    margin: 0 10px 10px 40px;
     background-color: #0D3B63;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 0px #090909;
@@ -233,7 +233,7 @@ a {
         text-align: justify;
     }
 
-/*----------Contactanos---------------------*/
+/*Contactanos*/
 
 
 #banner {
@@ -293,7 +293,6 @@ a {
     color: #fff;
     border-radius: 4px;
     width: 10%;
-    margin-top: 8px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -301,7 +300,7 @@ a {
 
 /*Iniciar Sesion*/
 .Lcaja {
-    min-height: 566px;
+    min-height: 618px;
     background-image: url('../img/BackgroundLoginAlumno.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -312,27 +311,28 @@ a {
 
 .Lderecha {
     margin-left: 48%;
-    padding-top:0px;
+    padding-top:0;
 }
 
 .sostiene {
     clear: both;
 }
 
-#Rnombre > p {
-    margin-top: 0px;
+.Rnombre > p {
+    margin-top: 0;
 }
 
-#Rnombre {
+.Rnombre {
     float: left;
     width: 49%;
 }
 
-#Rapellido {
+.Rapellido {
     margin-left: 50%;
+    width: 46%;
 }
 
-#RmaestroCd {
+.RmaestroCd {
     margin: auto;
     margin-top: 23px;
     width: 70%;
@@ -370,12 +370,11 @@ a {
     text-align: center;
 }
 
-.Linput > input {
+.Linput input {
     display: block;
-    width: 76%;
+    width: 93%;
     height: 40px;
-    padding-left:15px;
-    margin-left:35px;
+    padding-left: 15px;
     font-size: 14px;
     line-height: 1.42857143;
     color: #555;
@@ -385,14 +384,12 @@ a {
     border-radius: 4px;
 }
 
-.LbotonB {
-    padding-top: 10px;
-}
 
-#Linput h2 {
+.Linput h2 {
     text-align: center;
+    margin: 11px;
 }
-/*-------------------PERFIL DE USUARIO------------------------------------------*/
+/*PERFIL DE USUARIO*/
 .izquierdaperfil {
     float: left;
     width: 25%;
@@ -403,7 +400,7 @@ a {
 }
 
 .contenedorPerfil{
-    height:600px;;
+    height:600px;
     width: 70%;
 }
 .iconoperfil{
@@ -460,7 +457,7 @@ a {
 .razonesImg1 {
     width: 30%;
     float: left;
-    margin: 0px;
+    margin: 0;
     text-align: center;
     margin-top: 5px;
 }
@@ -487,7 +484,7 @@ a {
 
 .razonC {
     width: 100%;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .contenedorPortada {
@@ -522,16 +519,16 @@ a {
     font-size: 20px;
 }
 
-#lele {
-    margin: 0 25%;
-    width: 200px;
+.lele {
+    margin: 0 30%;
+    width: 180px;
 }
 
 #total {
     background-image: url(../img/FondoNosotro.jpg);
     background-size: 100%;
 }
-/*Publicidad -------------------------------------------------------------------------------------------------------------------------*/
+/*Publicidad*/
 #AdRotator1 > img {
     display:block;
     height:600px;
@@ -542,8 +539,7 @@ a {
     height: 600px;
     float: right;
 }
-
-/*Pagina  Alumno Nueva Asesoria -------------------------------------------------------------------------------------------------------------------------*/
+/*Pagina  Alumno Nueva Asesoria */
 .PAtittle{
     text-align:center;
 }
@@ -553,8 +549,7 @@ a {
     width: 50%;
 }
 
-.pRazones{
-    text-align:justify;
+.pRasones{    text-align:justify;
     padding-right:60px;
 }
 
@@ -564,4 +559,15 @@ a {
     text-align:center;
     margin-left:30%; 
     color:white;
+    
 }
+/*Arreglos*/
+
+#REnombreAL, #REnombreMA { /*No cambien el id por clase */
+    margin-top: 0;
+}
+
+.Lcaja p {
+    margin: 7px;
+}
+

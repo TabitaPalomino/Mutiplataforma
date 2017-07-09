@@ -7,13 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace EnglishForLife12
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class Beneficios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-        }
 
-        
+        }
     }
 }

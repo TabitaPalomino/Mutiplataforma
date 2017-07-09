@@ -1,29 +1,31 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="REmaestro.aspx.cs" Inherits="EnglishForLife12.REmaestro" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="Lcaja">
-        <div id="Lizquierda">
+    <div class="Lcaja">
+        <div class="Lizquierda">
         </div>
-        <div id="Lderecha">
-            <div id="RmaestroCd">
-                <div id="Linput">
-                    <div id="Rnombres">
-                        <div id="Rnombre">
-                            <p>Nombre</p>
-                            <input type="text" name="form-username" placeholder="Nombre..." class="form-control" id="form-username">
+        <div class="Lderecha">
+            <div class="RmaestroCd">
+                <div class="Linput">
+                    <h2>Registro de Maestro</h2>
+                    <div class="Rnombres">
+                        <div class="Rnombre">
+                            <p id="REnombreMA">Nombre</p>
+                            <input type="text" name="form-username" class="form-control" id="form-username">
                         </div>
-                        <div id="Rapellido">
+                        <div class="Rapellido">
                             <p>Apellidos</p>
-                            <input type="text" name="form-username" placeholder="Apellidos..." class="form-control">
+                            <input type="text" name="form-username" class="form-control">
                         </div>
                     </div>
                     <div class="sostiene"></div>
                     <p>Correo</p>
-                    <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control">
+                    <input type="text" name="form-username" placeholder="example@gmail.com" class="form-control">
 
 
-                    <div id="REnaci">
+                    <div class="REnaci">
                         <p>Fecha de Nacimiento</p>
                         <span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_0_g"><span>
                             <select aria-label="Día" name="birthday_day" id="day" title="Día" class="_5dba">
@@ -60,9 +62,9 @@
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select>
-                            
+
                             <select aria-label="Mes" name="birthday_month" id="month" title="Mes" class="_5dba">
-                                <option value="0" selected">Mes</option>
+                                <option value="0" selected>Mes</option>
                                 <option value="1">ene</option>
                                 <option value="2">feb</option>
                                 <option value="3">mar</option>
@@ -192,7 +194,7 @@
                                 <option value="1905">1905</option>
                             </select></span></span>
                     </div>
-                    <div id="REgrado">
+                    <div class="REgrado">
                         <p>Grado</p>
                         <label>
                             <select>
@@ -205,7 +207,7 @@
                                 <option value="Ingles 6">Ingles 6</option>
                             </select>
                         </label>
-                        
+
                     </div>
                     <div class="sostiene"></div>
                     <p>Contraseña</p>
@@ -214,9 +216,11 @@
                     <input type="text" name="form-username" placeholder="Correo alternativo..." class="form-control">
                 </div>
                 <div class="Lboton">
-                    <p class="LbotonB">
-                        <a href="Login.aspx">Registrar</a>
-                    </p>
+                    <a href="LoginMaestro.aspx">
+                        <div style="width: 50%; margin-left: 24%;" class="Buttonenviar">
+                            <p style="padding-top: 9px;">Registrate</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
