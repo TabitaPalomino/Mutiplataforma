@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="PerfilAsesor.aspx.cs" Inherits="EnglishForLife12.PerfilAsesor" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAsesor.aspx.cs" Inherits="EnglishForLife12.PerfilAsesor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div style="padding-top: 75px;" class="contenedorPerfilA">
         <div class="izquierdaperfil menu">
             <div class="foto">
