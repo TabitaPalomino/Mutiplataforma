@@ -11,7 +11,7 @@
 
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;fo
     height: 75px;
     position: fixed;
     background-color: white;
@@ -176,13 +176,15 @@ header {
     box-shadow: 0px 0px 5px 0px #090909;
 }
 
-#contenedor2 #sesion{
-    padding-top: 20px;
-    color:white;
-}
-#contenedor1 #registrarse{
+    #contenedor2 #sesion {
+        padding-top: 20px;
+        color: white;
+    }
+
+#contenedor1 #registrarse {
     color: white;
 }
+
 #vision1 > img {
     width: 60%;
 }
@@ -206,7 +208,6 @@ a {
     font-family: Arial;
     margin: 15px 15px 15px 15px;
     height: 30px;
-    
     border-radius: 5px;
     text-align: center;
     font-size: 20px;
@@ -234,41 +235,30 @@ a {
 
 
 #banner {
-    background-color: #A6ADCB;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:40px;
-    width: 1237px;
-    margin-top: 75px;
-    min-height: 100%;
-    background-image: url('../img/FondoContactenostransparente.png');
+    padding-top: 75px;
+    background-image: url('../img/fondocontacto.png');
 }
 
-    #banner #contactanos {
-        width: 1407px;
-        height: 250px;
-       
-    }
+
 
 .num1 {
-    padding-top:30px;
-    font-size:40px;
+    padding-top: 30px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 
 #banner #formulario {
-    text-align:center;
+    text-align: center;
     width: 100%;
     height: 695px;
-   
 }
 
-#formulario > input, #formulario > textarea{
-    color:black;
-}
+
 .form1 {
     border: 3px solid #A6ADCB;
     display: block;
@@ -284,10 +274,10 @@ a {
 .Buttonenviar {
     margin-top: 10px;
     height: 40px;
-    background-color: #ff6a00;
+    background-color: #003057;
     border: 0;
     font-size: 16px;
-    color: #fff;
+    color: white;
     border-radius: 4px;
     width: 10%;
     margin-bottom: 10px;
@@ -308,7 +298,7 @@ a {
 
 .Lderecha {
     margin-left: 48%;
-    padding-top:0;
+    padding-top: 0;
 }
 
 .sostiene {
@@ -322,7 +312,7 @@ a {
 .Rnombre {
     float: left;
     width: 45%;
-    margin-left:19px;
+    margin-left: 19px;
 }
 
 .Rapellido {
@@ -356,6 +346,7 @@ a {
     font-size: 18px;
     box-shadow: 0 10px 30px #666666;
 }
+
 .Buttonregistrate {
     margin-top: 10px;
     height: 30px;
@@ -381,7 +372,7 @@ a {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-left:8%;
+    margin-left: 8%;
 }
 
 
@@ -399,22 +390,23 @@ a {
     margin-left: 25%;
 }
 
-.contenedorPerfil{
-    height:600px;
+.contenedorPerfil {
+    height: 600px;
     width: 70%;
 }
-.iconoperfil{
+
+.iconoperfil {
     float: left;
     text-align: center;
-    width:24.5%;
-    font-size:10px;
-    font-style:normal;
+    width: 24.5%;
+    font-size: 10px;
+    font-style: normal;
 }
 
 .menu {
     border: 2px solid #c5c5c5;
     border-radius: 6px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
     .menu h4 {
@@ -448,7 +440,7 @@ a {
     }
 
 .iconos > div > a > img {
-    margin-top:20px;
+    margin-top: 20px;
     height: 100px;
     width: 100px;
 }
@@ -473,8 +465,7 @@ a {
 .col1Razones {
     width: 51%;
     float: left;
-    border:1px solid white;
-
+    border: 1px solid white;
 }
 
 .col2Razones {
@@ -530,36 +521,38 @@ a {
 }
 /*Publicidad*/
 #AdRotator1 > img {
-    display:block;
-    height:600px;
-    width:300px;
+    display: block;
+    height: 600px;
+    width: 300px;
 }
+
 .PublicidadVer {
     width: 300px;
     height: 600px;
     float: right;
 }
 /*Pagina  Alumno Nueva Asesoria */
-.PAtittle{
-    text-align:center;
+.PAtittle {
+    text-align: center;
 }
+
 .PAcontenedor {
     padding-left: 20px;
     border: 2px solid red;
     width: 50%;
 }
 
-.pRasones{    text-align:justify;
-    padding-right:60px;
+.pRasones {
+    text-align: justify;
+    padding-right: 60px;
 }
 
 .olvideMiC {
-    font-size: 14px; 
-    text-decoration:underline; 
-    text-align:center;
-    margin-left:30%; 
-    color:white;
-    
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 30%;
+    color: white;
 }
 /*Arreglos*/
 
@@ -570,4 +563,3 @@ a {
 .Lcaja p {
     margin: 7px;
 }
-

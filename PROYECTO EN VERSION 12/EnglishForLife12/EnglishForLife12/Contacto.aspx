@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div id="banner">
-           <h1 class="num1">Contáctanos</h1>
+           <h1 class="num1">CONTÁCTANOS</h1>
         <div id="formulario">
                 <input type="text" class="form1" name="Nombre" placeholder="Nombres">
                 <input type="text" class="form1" name="ApellidoP" placeholder="Apellido Paterno">
