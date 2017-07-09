@@ -20,7 +20,7 @@
                 <asp:Button class="Buttonenviar" runat="server" Text="Iniciar Sesion" style="width:50%; margin-left:24%;"/>
                 <br />
                 <p style="font-size: 13px; display:inline; text-align:center; margin-left:30px;">¿Aún no tienes cuenta?</p>
-                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" />
+                <asp:Button class="Buttonregistrate" runat="server" Text="Registrate" OnClick="Unnamed2_Click" />
             </div>
         </div>
     </div>

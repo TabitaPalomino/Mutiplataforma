@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="Lcaja" style="background-size:110%">
+    <div class="Lcaja" style="background-image:url('img/fondoRegis.png'); background-size:100%">
         <div class="Lderecha">
             <div class="RmaestroCd" style="margin-bottom:20px;">
 
