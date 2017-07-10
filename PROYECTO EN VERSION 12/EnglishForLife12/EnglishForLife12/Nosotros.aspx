@@ -3,8 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="total">
-    <h1 style="text-align:center;" >Informate mas acerca de EnglishForLife</h1>
+
     <section class="caja">
+            <h1 class="num1">Sobre EnglishForLife</h1>
         <h2>¿QUIENES SOMOS?</h2>
         <p><strong>UsilForLife</strong>, es un proyecto que surge en el año 2017 ante la necesidad de estudiantes
 		    que buscan un apoyo académico durante su proceso de aprendizaje del curso de ingles. 

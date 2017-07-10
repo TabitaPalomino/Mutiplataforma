@@ -59,6 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Beneficios.aspx" />
     <Content Include="ConfirmarOC.aspx" />
     <Content Include="ConfirmarOCAlum.aspx" />
     <Content Include="ElegirAsesor.aspx" />
@@ -87,9 +88,18 @@
     <Content Include="PublicidadAM.xml" />
     <Content Include="REalumno.aspx" />
     <Content Include="REmaestro.aspx" />
+    <Content Include="VerListadoDeAlumnos.aspx" />
+    <Content Include="VerListadoDeAsesorias.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beneficios.aspx.cs">
+      <DependentUpon>Beneficios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beneficios.aspx.designer.cs">
+      <DependentUpon>Beneficios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConfirmarOC.aspx.cs">
       <DependentUpon>ConfirmarOC.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -212,6 +222,20 @@
     </Compile>
     <Compile Include="REmaestro.aspx.designer.cs">
       <DependentUpon>REmaestro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerListadoDeAlumnos.aspx.cs">
+      <DependentUpon>VerListadoDeAlumnos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerListadoDeAlumnos.aspx.designer.cs">
+      <DependentUpon>VerListadoDeAlumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerListadoDeAsesorias.aspx.cs">
+      <DependentUpon>VerListadoDeAsesorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerListadoDeAsesorias.aspx.designer.cs">
+      <DependentUpon>VerListadoDeAsesorias.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
