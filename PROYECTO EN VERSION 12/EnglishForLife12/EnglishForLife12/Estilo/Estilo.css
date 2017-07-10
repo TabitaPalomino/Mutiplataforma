@@ -12,15 +12,7 @@
 
 header {
     border-bottom: 1px solid black;
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 75px;
-=======
-    fo height: 75px;
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
-=======
-    fo height: 75px;
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
     position: fixed;
     background-color: white;
     width: 100%;
@@ -469,7 +461,6 @@ a {
 }
 
 table, th, td {
-    border: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -478,10 +469,7 @@ th, td {
     text-align: left;
 }
 
-table#t01 {
-    width: 100%;
-    background-color: #f1f1c1;
-}
+
 
 /*RAZONES PARA ESTUDIAR INGLES*/
 .razonesImg1 {
@@ -607,16 +595,7 @@ table#t01 {
     width: 25%;
     margin-top: 10px;
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 .ProfeDatos {
-=======
-<<<<<<< HEAD .ProfeDatos {
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
-=======
-<<<<<<< HEAD .ProfeDatos {
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
     margin-left: 25%;
 }
 
@@ -655,13 +634,6 @@ table#t01 {
     display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
-=======
->>>>>>> 73b9e24ee156ed334c341bad459faae655f7df70
 /*Pagina Beneficios*/
 .col1Beneficios {
     width: 20%;
