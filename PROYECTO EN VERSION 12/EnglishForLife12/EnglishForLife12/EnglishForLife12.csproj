@@ -62,6 +62,7 @@
     <Content Include="Beneficios.aspx" />
     <Content Include="ConfirmarOC.aspx" />
     <Content Include="ConfirmarOCAlum.aspx" />
+    <Content Include="EjerciciosPropuestos.aspx" />
     <Content Include="MaterialesAlum.aspx" />
     <Content Include="OlvideContraseñaAlum.aspx" />
     <Content Include="OlvideMiContraseña.aspx" />
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjerciciosPropuestos.aspx.cs">
+      <DependentUpon>EjerciciosPropuestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjerciciosPropuestos.aspx.designer.cs">
+      <DependentUpon>EjerciciosPropuestos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
