@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
-     <div style="padding-top: 75px;" class="contenedorPerfilA">
+    <div style="padding-top: 75px;" class="contenedorPerfilA">
         <div class="izquierdaperfil menu">
             <div class="foto">
                 <h4>Jhonatan Chavez</h4>
@@ -53,4 +53,5 @@
 
     </div>
     <div class="sostiene">asdasdad</div>
+
 </asp:Content>
