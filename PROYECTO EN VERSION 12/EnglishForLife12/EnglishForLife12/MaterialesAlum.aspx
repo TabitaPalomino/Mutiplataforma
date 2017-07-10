@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfildeAlumno.aspx.cs" Inherits="EnglishForLife12.PerfildeAlumno2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="MaterialesAlum.aspx.cs" Inherits="EnglishForLife12.MaterialesAlum" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -22,19 +22,26 @@
                 <li><a href="#">Postular a Alumno Asesor</a></li>
             </ul>
         </div>
-        <div class="derechaperfil">
+        <div class="derechaperfil" style="border:1px solid red; margin-right:25%;">
+            <div style="border:1px solid red;">s</div>
+            <div style="border:1px solid red;">w</div>
+            <div style="border:1px solid red;">r</div>
+            <div style="border:1px solid red;">l</div>
+
             <div class="contenedorPerfil">
                 <div class="iconos">
                     <div class="iconoperfil">
-                        <a href="MaterialesAlum.aspx">
-                            <img src="img/material.png" />
-                            <h2>Material</h2>
+                        <h4>Libro Face2Face Pre-Intermedio</h4>
+                        <a href="https://drive.google.com/open?id=0BwxFrFQlsrrkbzhfbUNSckFwNDQ">
+                            <img src="img/LibroF2F.PNG" />
+                            <p style="text-decoration:underline; width:14px;">Descargar</p>
                         </a>
                     </div>
                     <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/talleres.png" />
-                            <h2>Ejercicios propuestos</h2>
+                        <h4>ppt's para practicar tu speaking</h4>
+                        <a href="https://drive.google.com/open?id=0BwxFrFQlsrrkbzhfbUNSckFwNDQ">
+                            <img src="img/practicaSpk.PNG" />
+                            <p style="text-decoration:underline; width:14px;">Descargar</p>
                         </a>
                     </div>
                     <div class="iconoperfil">
@@ -46,8 +53,5 @@
                 </div>
             </div>
         </div>
-        <div class="sostiene">asdasdad</div>
-
     </div>
-    <div class="sostiene">asdasdad</div>
 </asp:Content>

@@ -62,6 +62,7 @@
     <Content Include="Beneficios.aspx" />
     <Content Include="ConfirmarOC.aspx" />
     <Content Include="ConfirmarOCAlum.aspx" />
+    <Content Include="MaterialesAlum.aspx" />
     <Content Include="OlvideContraseñaAlum.aspx" />
     <Content Include="OlvideMiContraseña.aspx" />
     <Content Include="PaginaPrincipal.Master" />
@@ -134,6 +135,13 @@
     </Compile>
     <Compile Include="LoginMaestro.aspx.designer.cs">
       <DependentUpon>LoginMaestro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialesAlum.aspx.cs">
+      <DependentUpon>MaterialesAlum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaterialesAlum.aspx.designer.cs">
+      <DependentUpon>MaterialesAlum.aspx</DependentUpon>
     </Compile>
     <Compile Include="Nosotros.aspx.cs">
       <DependentUpon>Nosotros.aspx</DependentUpon>
