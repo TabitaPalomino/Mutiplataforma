@@ -12,7 +12,7 @@
 
 header {
     border-bottom: 1px solid black;
-    fo height: 75px;
+    height: 75px;
     position: fixed;
     background-color: white;
     width: 100%;
@@ -599,8 +599,7 @@ table#t01 {
     width: 25%;
     margin-top: 10px;
 }
-
-<<<<<<< HEAD .ProfeDatos {
+.ProfeDatos {
     margin-left: 25%;
 }
 
@@ -639,7 +638,7 @@ table#t01 {
     display: none;
 }
 
-=======
+
 /*Pagina Beneficios*/
 .col1Beneficios {
     width: 20%;
@@ -805,4 +804,17 @@ table#t01 {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
+}
+
+.materiali {
+    width: 50%;
+    float: left;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.materiald {
+    margin-left: 50%;
+    padding: 10px 20px;
+    text-align: center;
 }
