@@ -63,6 +63,7 @@
     <Content Include="ConfirmarOC.aspx" />
     <Content Include="ConfirmarOCAlum.aspx" />
     <Content Include="EjerciciosPropuestos.aspx" />
+    <Content Include="ElegirAsesor2.aspx" />
     <Content Include="MaterialesAlum.aspx" />
     <Content Include="OlvideContraseñaAlum.aspx" />
     <Content Include="OlvideMiContraseña.aspx" />
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="EjerciciosPropuestos.aspx.designer.cs">
       <DependentUpon>EjerciciosPropuestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ElegirAsesor2.aspx.cs">
+      <DependentUpon>ElegirAsesor2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ElegirAsesor2.aspx.designer.cs">
+      <DependentUpon>ElegirAsesor2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

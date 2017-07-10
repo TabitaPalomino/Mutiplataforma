@@ -11,7 +11,7 @@
 
 
 header {
-    border-bottom: 1px solid black;fo
+    border-bottom: 1px solid black;
     height: 75px;
     position: fixed;
     background-color: white;
@@ -165,7 +165,7 @@ header {
     margin: 0 10px 10px 40px;
     background-color: #0D3B63;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 0px #090909;
+    box-shadow: 0 0 5px 0 #090909;
 }
 
 #contenedor2 {
@@ -173,7 +173,7 @@ header {
     margin: 10px 30px 10px 52%;
     background-color: #0D3B63;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 0px #090909;
+    box-shadow: 0 0 5px 0 #090909;
 }
 
     #contenedor2 #sesion {
@@ -570,7 +570,6 @@ a {
     margin-top: 10px;
 }
 
-<<<<<<< HEAD
 .ProfeDatos {
     margin-left: 25%;
 }
@@ -604,7 +603,7 @@ a {
 .noseMal {
     display: none;
 }
-=======
+
 /*Pagina Beneficios*/
 
 .col1Beneficios {
@@ -648,7 +647,7 @@ a {
 .BeneficiosTexto2 {
     width: 50%;
     margin-left: 20%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-top: 15px;
 }
 
@@ -672,7 +671,7 @@ a {
 #Titulo img {
     background-color: #f5f5f0;
     width: 90%;
-    margin: 25px 0px 0px 70px;
+    margin: 25px 0 0 70px;
     text-shadow: 20px 12px 2px #687096;
 }
 
