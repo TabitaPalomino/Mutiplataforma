@@ -22,35 +22,20 @@
                 <li><a href="#">Postular a Alumno Asesor</a></li>
             </ul>
         </div>
-        <div class="derechaperfil" style="border:1px solid red; margin-right:25%;">
-            <div style="border:1px solid red;">s</div>
-            <div style="border:1px solid red;">w</div>
-            <div style="border:1px solid red;">r</div>
-            <div style="border:1px solid red;">l</div>
-
-            <div class="contenedorPerfil">
-                <div class="iconos">
-                    <div class="iconoperfil">
+        <div class="derechaperfil" style="margin-right:27%;">
+            <div>
+                <section class="materiali">
                         <h4>Libro Face2Face Pre-Intermedio</h4>
                         <a href="https://drive.google.com/open?id=0BwxFrFQlsrrkbzhfbUNSckFwNDQ">
-                            <img src="img/LibroF2F.PNG" />
-                            <p style="text-decoration:underline; width:14px;">Descargar</p>
+                            <img src="img/LibroF2F.PNG" style="width:200px;" />
                         </a>
-                    </div>
-                    <div class="iconoperfil">
+                </section>
+                <section class="materiald" style="text-align:center;">
                         <h4>ppt's para practicar tu speaking</h4>
                         <a href="https://drive.google.com/open?id=0BwxFrFQlsrrkbzhfbUNSckFwNDQ">
-                            <img src="img/practicaSpk.PNG" />
-                            <p style="text-decoration:underline; width:14px;">Descargar</p>
+                            <img src="img/practicaSpk.PNG" style="width:200px;"/>
                         </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="PANuevaAsesoria.aspx">
-                            <img src="img/Asesoria.png" />
-                            <h2>Solicitar Nueva Asesoria</h2>
-                        </a>
-                    </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
