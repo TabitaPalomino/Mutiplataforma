@@ -83,6 +83,11 @@
     <Content Include="LoginMaestro.aspx" />
     <Content Include="Nosotros.aspx" />
     <Content Include="PANuevaAsesoria.aspx" />
+    <Content Include="PerfilAlumnoCursoActual.aspx" />
+    <Content Include="PerfilAlumnoEditar.aspx" />
+    <Content Include="PerfilAlumnoPagos.aspx" />
+    <Content Include="PerfilAlumnoPostular.aspx" />
+    <Content Include="PerfilAlumnoTutorias.aspx" />
     <Content Include="PerfilAsesor.aspx" />
     <Content Include="PerfildeAlumno.aspx" />
     <Content Include="Portada.aspx" />
@@ -192,6 +197,41 @@
     </Compile>
     <Compile Include="PANuevaAsesoria.aspx.designer.cs">
       <DependentUpon>PANuevaAsesoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilAlumnoCursoActual.aspx.cs">
+      <DependentUpon>PerfilAlumnoCursoActual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilAlumnoCursoActual.aspx.designer.cs">
+      <DependentUpon>PerfilAlumnoCursoActual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilAlumnoEditar.aspx.cs">
+      <DependentUpon>PerfilAlumnoEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilAlumnoEditar.aspx.designer.cs">
+      <DependentUpon>PerfilAlumnoEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilAlumnoPagos.aspx.cs">
+      <DependentUpon>PerfilAlumnoPagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilAlumnoPagos.aspx.designer.cs">
+      <DependentUpon>PerfilAlumnoPagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilAlumnoPostular.aspx.cs">
+      <DependentUpon>PerfilAlumnoPostular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilAlumnoPostular.aspx.designer.cs">
+      <DependentUpon>PerfilAlumnoPostular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilAlumnoTutorias.aspx.cs">
+      <DependentUpon>PerfilAlumnoTutorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilAlumnoTutorias.aspx.designer.cs">
+      <DependentUpon>PerfilAlumnoTutorias.aspx</DependentUpon>
     </Compile>
     <Compile Include="PerfilAsesor.aspx.cs">
       <DependentUpon>PerfilAsesor.aspx</DependentUpon>
