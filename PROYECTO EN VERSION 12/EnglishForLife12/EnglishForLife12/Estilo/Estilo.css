@@ -554,7 +554,7 @@ a {
     margin-left: 30%;
     color: white;
 }
-/*Arreglos*/
+/*Arreglos --------------------------------------------------------------------------------------------------------------*/
 
 #REnombreAL, #REnombreMA { /*No cambien el id por clase */
     margin-top: 0;
@@ -563,7 +563,48 @@ a {
 .Lcaja p {
     margin: 7px;
 }
+/*Elegir profesor --------------------------------------------------------------------------------------------------------------*/
+.ImgProfeS {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
 
+<<<<<<< HEAD
+.ProfeDatos {
+    margin-left: 25%;
+}
+.ProfesUsil {
+    height: 171px;
+    width: 700px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #A9D0F5;
+}
+.cuadro8 {
+    background-color: #60b6f6;
+    padding: 10px;
+    font-family: Arial;
+    margin: 15px 15px 15px 15px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width:250px;
+}
+.ProfeDatos > h3, .ProfeDatos > h4 {
+    margin:0;
+}
+.AsesoriaNew h4{
+     margin:0;
+}
+.noseMal {
+    display: none;
+}
+=======
 /*Pagina Beneficios*/
 
 .col1Beneficios {
@@ -628,10 +669,56 @@ a {
     background-color: #f5f5f0;
 }
 
-#Titulo {
+#Titulo img {
     background-color: #f5f5f0;
+    width: 90%;
+    margin: 25px 0px 0px 70px;
+    text-shadow: 20px 12px 2px #687096;
 }
 
 #mitad {
     background-color: #f5f5f0;
 }
+/*Ver Listado Alumnos */
+
+.h2 {
+    color: darkred;
+    text-align: right;
+    padding-right: 400px;
+    padding-bottom: 10px;
+}
+
+.top {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 110px;
+    background-image: url(http://j9qad2bjv2e30f3eoksb00c1.wpengine.netdna-cdn.com/wp-content/uploads/2014/10/ensena-valores-a-tus-alumnos.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.subNombres {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    color: darkred;
+    font-weight: bold;
+}
+
+
+/*Ver Listado Asesorias  */
+.mid {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    background-image: url(http://acad-mx.com/wp-content/uploads/2016/07/asesoria-3-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.subAsesorias {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    color: darkred;
+    font-weight: bold;
+}
+>>>>>>> 4d157bf6d4848b0093f5bcff2f5cd27927197f29
