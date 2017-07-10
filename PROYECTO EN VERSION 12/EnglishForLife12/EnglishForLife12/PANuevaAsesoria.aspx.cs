@@ -11,7 +11,7 @@ namespace EnglishForLife12
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
@@ -22,6 +22,16 @@ namespace EnglishForLife12
         protected void Calendar1_SelectionChanged1(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PerfildeAlumno.aspx");
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
