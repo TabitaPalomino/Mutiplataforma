@@ -561,7 +561,7 @@ a {
     color:white;
     
 }
-/*Arreglos*/
+/*Arreglos --------------------------------------------------------------------------------------------------------------*/
 
 #REnombreAL, #REnombreMA { /*No cambien el id por clase */
     margin-top: 0;
@@ -570,4 +570,43 @@ a {
 .Lcaja p {
     margin: 7px;
 }
+/*Elegir profesor --------------------------------------------------------------------------------------------------------------*/
+.ImgProfeS {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
 
+.ProfeDatos {
+    margin-left: 25%;
+}
+.ProfesUsil {
+    height: 171px;
+    width: 700px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #A9D0F5;
+}
+.cuadro8 {
+    background-color: #60b6f6;
+    padding: 10px;
+    font-family: Arial;
+    margin: 15px 15px 15px 15px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width:250px;
+}
+.ProfeDatos > h3, .ProfeDatos > h4 {
+    margin:0;
+}
+.AsesoriaNew h4{
+     margin:0;
+}
+.noseMal {
+    display: none;
+}

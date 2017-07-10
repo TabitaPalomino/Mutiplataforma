@@ -1,23 +1,4 @@
-USE [UsilForLive]
-GO
-/****** Object:  Table [dbo].[Asesorias]    Script Date: 07/09/2017 08:15:21 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-SET ANSI_PADDING ON
-GO
-CREATE TABLE [dbo].[Asesorias](
-	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[HoraInicio] [time](7) NOT NULL,
-	[Duracion] [int] NULL,
-	[Nivel] [varchar](50) NOT NULL,
-	[fecha] [datetime] NOT NULL,
- CONSTRAINT [PK_Asesorias] PRIMARY KEY CLUSTERED 
-(
-	[Id] ASC
-)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-SET ANSI_PADDING OFF
-GO
+use UsilForLive
+go
+alter table Asesorias
+add  AsesorR INT constraint FK_asesorR foreign key (AsesorR) references Maestro(Id)
