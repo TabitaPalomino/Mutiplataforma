@@ -9,17 +9,17 @@
                 <h5>Rango:Alumno</h5>
                 <img src="img/fotoperfil.jpg" />
             </div>
-            <h4>Información de Cuenta</h4>
+           <h4>Información de Cuenta</h4>
             <ul>
-                <li><a href="#">Datos Personales</a></li>
-                <li><a href="#">Mis tutorias</a></li>
-                <li><a href="#">Pagos Realizados</a></li>
+                <li><strong><a href="PerfildeAlumno.aspx">Inicio</a></strong></li>
+                <li><a href="PerfilAlumnoEditar.aspx">Editar Datos Personales</a></li>
+                <li><a href="PerfilAlumnoTutorias.aspx">Mis tutorias</a></li>
+                <li><a href="PerfilAlumnoPagos.aspx">Pagos Realizados</a></li>
             </ul>
             <h4>Opciones de Cursos </h4>
             <ul>
-                <li><a href="#">Curso Actual</a></li>
-                <li><a href="#">Información del Curso</a></li>
-                <li><a href="#">Postular a Alumno Asesor</a></li>
+                <li><a href="PerfilAlumnoCursoActual.aspx">Curso Actual</a></li>
+                <li><a href="PerfilAlumnoPostular.aspx">Postular a Alumno Asesor</a></li>
             </ul>
         </div>
         <div class="derechaperfil" style="border:1px solid red; margin-right:25%;">

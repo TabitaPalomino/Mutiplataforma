@@ -26,13 +26,13 @@
             <div class="contenedorPerfil">
                 <div class="iconos">
                     <div class="iconoperfil">
-                        <a href="#">
+                        <a href="MaterialesAlum.aspx">
                             <img src="img/material.png" />
                             <h2>Material</h2>
                         </a>
                     </div>
                     <div class="iconoperfil">
-                        <a href="#">
+                        <a href="EjerciciosPropuestos.aspx">
                             <img src="img/talleres.png" />
                             <h2>Ejercicios propuestos</h2>
                         </a>
