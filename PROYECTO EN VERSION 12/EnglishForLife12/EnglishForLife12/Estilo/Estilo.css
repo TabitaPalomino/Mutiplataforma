@@ -598,6 +598,7 @@ table#t01 {
     width: 25%;
     margin-top: 10px;
 }
+
 .ProfeDatos {
     margin-left: 25%;
 }
@@ -629,14 +630,92 @@ table#t01 {
     margin: 0;
 }
 
+.AsesoriaNew {
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-left: 26%;
+    margin-top: 5px;
+    width: 689px;
+    height: 616px;
+    background-color: #c0e7ee;
+}
+
+.filtroProfe {
+    width: 389px;
+    height: 611px;
+    float:left;
+}
+
+.CostroREnta {
+    margin-left: 393px;
+    height: 611px;
+}
+
+#ContentPlaceHolder2_FormView1 {
+    margin: auto;
+}
+
 .AsesoriaNew h4 {
     margin: 0;
+    text-align: center;
+}
+.AsesoriaNew select {
+    margin-left: 74px;
 }
 
 .noseMal {
     display: none;
 }
 
+.cajaPrecio {
+    border: 2px solid black;
+    height: 200px;
+    margin: 10px;
+    text-align:center;
+    border-radius:10px;
+    background-color: #c5f19f;
+}
+
+.PreciosCostos {
+    border: 2px solid black;
+    height: 377px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #c5f19f;
+    padding-left:15px;
+}
+.cuentaPagar {
+    margin: 10px 30px;
+    text-align:center;
+}
+.PrecioNUme{
+    font-size:23px;
+    margin:0;
+}
+.TiTlePre{
+    font-size: 25px;
+}
+.AceptarPreci {
+    background-color: #f5ff05;
+    color: #000;
+    margin-top: 10px;
+    height: 41px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 181px;
+}
+.CodexGig {
+    width: 78%;
+    height: 40px;
+    font-size: 14px;
+    color: #555;
+    padding-left:3px;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
 /*Pagina Beneficios*/
 .col1Beneficios {
     width: 20%;

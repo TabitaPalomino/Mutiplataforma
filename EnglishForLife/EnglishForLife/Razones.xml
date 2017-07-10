@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Razones>
+  <Razon>
+    <titulo>El inglés se habla alrededor de todo el mundo</titulo>
+    <imagen>
+      <img scr="../img/Razon1.png" />
+    </imagen>
+    <descripcion>
+      El inglés no es el idioma más hablado (ese título va al chino), pero viene en tercer lugar, después del español.
+      Y el número de 335 millones de hablantes nativos es respetable.
+    </descripcion>
+  </Razon>  
+
+  <Razon>
+    <titulo>Negocios internacionales requieren Inglés</titulo>
+    <imagen>
+      <img src="../img/Razon2" />
+    </imagen>
+    <descripcion>
+      En términos de comercio internacional, el inglés es el idioma para aprender.
+      Cuando los chinos hacen negocios en Egipto, las negociaciones y transacciones ocurren en inglés.
+    </descripcion>
+  </Razon>  
+
+  <Razon>
+    <titulo>Oportunidades de educación y de investigación</titulo>
+    <imagen>
+      <img src="../img/Razon3" />
+    </imagen>
+    <descripcion>
+      Pensando en estudiar en el extranjero o publicar un trabajo de investigación? 
+      Lo más probable es que usted decida aprender inglés en algún momento del camino, 
+      o estudiar en su institución elegida.
+    </descripcion>
+  </Razon>  
+
+  <Razon>
+    <titulo>Un lenguaje perfecto para viajar</titulo>
+    <imagen>
+      <img src="../img/Razon4" />
+    </imagen>
+    <descripcion>
+      Si viaja a menudo, notará que los signos tienden a aparecer en la lengua local primero y en inglés en segundo lugar. 
+      Eso es porque el inglés es considerado el idioma internacional más popular.
+    </descripcion>
+  </Razon>  
+
+  <Razon>
+    <titulo>El lenguaje del cine y la música</titulo>
+    <imagen>
+      <img src="../img/Razon5" />
+    </imagen>
+    <descripcion>
+      Si te gusta ir al cine y son fan de sitcoms, entonces el inglés debería estar en tu lista.
+      Eso se debe a que muchas de las películas del mundo están escritas y producidas en inglés.
+    </descripcion>
+  </Razon>  
+
+  <Razon>
+    <titulo>Hemingway y Harry Potter</titulo>
+    <imagen>
+      <img src="../img/Razon5" />
+    </imagen>
+    <descripcion>
+      El inglés ha estado alrededor por mucho tiempo y los escritores
+      que hablan inglés han sido siempre un manojo prolífico, 
+      tanto en Gran Bretaña como en los Estados Unidos.
+    </descripcion>
+  </Razon>  
+</Razones>
