@@ -10,20 +10,24 @@
                 <h5>Rango:Alumno</h5>
                 <img src="img/fotoperfil.jpg" />
             </div>
-            <h4>Información de Cuenta</h4>
+              <h4>Información de Cuenta</h4>
             <ul>
-                <li><a href="#">Datos Personales</a></li>
-                <li><a href="#">Historial de Cursos</a></li>
-                <li><a href="#">Pagos Realizados</a></li>
+                <li><strong><a href="PerfildeAlumno.aspx">Inicio</a></strong></li>
+                <li><a href="PerfilAlumnoEditar.aspx">Editar Datos Personales</a></li>
+                <li><a href="PerfilAlumnoTutorias.aspx">Mis tutorias</a></li>
+                <li><a href="PerfilAlumnoPagos.aspx">Pagos Realizados</a></li>
             </ul>
             <h4>Opciones de Cursos </h4>
             <ul>
-                <li><a href="#">Curso Actual</a></li>
-                <li><a href="#">Información del Curso</a></li>
-                <li><a href="#">Postular a Alumno Asesor</a></li>
+                <li><a href="PerfilAlumnoCursoActual.aspx">Curso Actual</a></li>
+                <li><a href="PerfilAlumnoPostular.aspx">Postular a Alumno Asesor</a></li>
             </ul>
         </div>
         <div class="derechaperfil AsesoriaNew">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69ba0d20db74a267c9afb01e493cbf41c896dbd4
             <div class="filtroProfe">
                 <asp:FormView DefaultMode="Insert" ID="FormView1" runat="server" DataKeyNames="Id" DataSourceID="SQLasesorias1">
 
@@ -35,6 +39,23 @@
                         <asp:DataList ID="DataList9" runat="server" DataKeyField="Id" DataSourceID="ProfeSmash">
                             <ItemTemplate>
                                 Nombre:
+<<<<<<< HEAD
+=======
+=======
+            <asp:FormView DefaultMode="Insert" ID="FormView1" runat="server" DataKeyNames="Id" DataSourceID="SQLasesorias1">
+
+                <InsertItemTemplate>
+                    <h4>Asesor:</h4>
+                    <div class="cuadro1">
+                        <a href="ElegirAsesor.aspx">Elegir Asesor</a>
+                    </div>
+                    <asp:DataList ID="DataList9" runat="server" DataKeyField="Id" DataSourceID="ProfeSmash">
+                        <ItemTemplate>
+                            Id:
+                            <asp:Label Text='<%# Eval("Id") %>' runat="server" ID="Ids" /><br />
+                            Nombre:
+>>>>>>> b3ab26dcd26e83818a66ad8d18caf0ccffb6406a
+>>>>>>> 69ba0d20db74a267c9afb01e493cbf41c896dbd4
                             <asp:Label Text='<%# Eval("Nombre") %>' runat="server" ID="NombreLabel" /><br />
                                 Apellidos:
                             <asp:Label Text='<%# Eval("Apellidos") %>' runat="server" ID="ApellidosLabel" /><br />
