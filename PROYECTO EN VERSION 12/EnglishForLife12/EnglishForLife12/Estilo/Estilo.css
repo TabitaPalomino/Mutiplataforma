@@ -12,7 +12,7 @@
 
 header {
     border-bottom: 1px solid black;
-    height: 75px;
+    fo height: 75px;
     position: fixed;
     background-color: white;
     width: 100%;
@@ -445,6 +445,36 @@ a {
     width: 100px;
 }
 
+.formPerfil {
+    border: 1px solid #003057;
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 30px;
+    padding: 5px 20px;
+}
+
+.pEditar {
+    margin-left: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
 /*RAZONES PARA ESTUDIAR INGLES*/
 .razonesImg1 {
     width: 30%;
@@ -570,10 +600,10 @@ a {
     margin-top: 10px;
 }
 
-
-.ProfeDatos {
+<<<<<<< HEAD .ProfeDatos {
     margin-left: 25%;
 }
+
 .ProfesUsil {
     height: 171px;
     width: 700px;
@@ -583,6 +613,7 @@ a {
     margin-left: 5px;
     background-color: #A9D0F5;
 }
+
 .cuadro8 {
     background-color: #60b6f6;
     padding: 10px;
@@ -593,19 +624,23 @@ a {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    width:250px;
+    width: 250px;
 }
+
 .ProfeDatos > h3, .ProfeDatos > h4 {
-    margin:0;
+    margin: 0;
 }
-.AsesoriaNew h4{
-     margin:0;
+
+.AsesoriaNew h4 {
+    margin: 0;
 }
+
 .noseMal {
     display: none;
 }
-/*Pagina Beneficios*/
 
+=======
+/*Pagina Beneficios*/
 .col1Beneficios {
     width: 20%;
     background-color: #f5f5f0;
@@ -720,17 +755,54 @@ a {
     color: darkred;
     font-weight: bold;
 }
-
-.materiali {
-    width: 50%;
-    float: left;
-    padding: 10px 20px;
-    text-align: center;
+/*Pagina de Ejercicios Propuestos*/
+#UnidadR {
+    background-color: #4080bf;
 }
 
-.materiald {
-    margin-left: 50%;
-    padding: 10px 20px;
-    text-align:center;
+#UnidadW {
+    background-color: #6699cc;
 }
 
+#UnidadS {
+    background-color: #8cb3d9;
+}
+
+#UnidadL {
+    background-color: #b3cce6;
+}
+
+#UnidadR, #UnidadW, #UnidadS, #UnidadL {
+    padding: 1px 10px 2px 50px;
+    width: 75%;
+    color: white;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+    #UnidadR h4, #UnidadW h4, #UnidadS h4, #UnidadL h4 {
+        margin-right: 10%;
+        background-color: #336699;
+        border-radius: 5px;
+        padding: 4px;
+        text-align: center;
+    }
+
+#primeraSeccion {
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 70px;
+    margin-top: 20px;
+    color: midnightblue;
+    font-size: 14px;
+}
+
+#primeraSeccion {
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}

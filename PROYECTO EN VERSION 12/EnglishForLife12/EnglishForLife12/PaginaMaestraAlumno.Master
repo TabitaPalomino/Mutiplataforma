@@ -17,7 +17,6 @@
         </section>
 
         <section id="derecha">
-            <a href="PerfildeAlumno.aspx">Inicio</a>          &nbsp;     &nbsp; 
            
             <a href="Contacto.aspx">Contactenos</a>    &nbsp;     &nbsp; 
            
@@ -62,7 +61,7 @@
 
         <div id="copy">
 
-            <p>Copyright &copy; Usil For Life 2017</p>
+            <p>Copyright &copy; Usil For Live 2017</p>
         </div>
 
     </footer>

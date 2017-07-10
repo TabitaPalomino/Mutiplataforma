@@ -179,7 +179,7 @@
                     <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Correo Electronico Alternativo" class="form-control" id="form-username5">
                     <input type="text" style="margin-bottom:10px;" name="form-username" placeholder="Celular/Telefono" class="form-control" id="form-username6">
                  </div>
-                <asp:Button class="Buttonenviar" runat="server" Text="Registrarse" style="width:50%; margin-left:24%;" OnClick="Unnamed1_Click"/>
+                <asp:Button class="Buttonenviar" runat="server" Text="Registrarse" style="width:50%; margin-left:24%;"/>
             </div>
         </div>
     </div>
