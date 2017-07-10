@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfildeAlumno.aspx.cs" Inherits="EnglishForLife12.PerfildeAlumno2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAlumnoEditar.aspx.cs" Inherits="EnglishForLife12.PerfilAlumnoEditar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -24,26 +24,19 @@
         </div>
         <div class="derechaperfil">
             <div class="contenedorPerfil">
-                <div class="iconos">
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/material.png" />
-                            <h2>Material</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/talleres.png" />
-                            <h2>Ejercicios propuestos</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="PANuevaAsesoria.aspx">
-                            <img src="img/Asesoria.png" />
-                            <h2>Solicitar Nueva Asesoria</h2>
-                        </a>
-                    </div>
-                </div>
+                <h3 style="text-align:center">Editar Información de Perfil</h3>
+                <p class="pEditar">Nombre:</p>
+                <input type="text" class="formPerfil" name="Nombre" placeholder="Nombres">
+                <p class="pEditar">Apellidos:</p>
+                <input type="text" class="formPerfil" name="ApellidoP" placeholder="Apellidos">
+                <p class="pEditar">Imagen de Perfil:</p>
+                <input style="margin-left:30px" name="imagen" type="file" />
+                <p class="pEditar">Telefono:</p>
+                <input type="text" class="formPerfil" name="Telefono" placeholder="Telefono/Casa">
+                <p class="pEditar">Email:</p>
+                <input type="text" class="formPerfil" name="Email" placeholder="Email">
+
+                <asp:Button style="margin-left:30px;" class="Buttonenviar" runat="server" Text="Guardar" />
             </div>
         </div>
         <div class="sostiene">asdasdad</div>
@@ -51,3 +44,4 @@
     </div>
     <div class="sostiene">asdasdad</div>
 </asp:Content>
+

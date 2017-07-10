@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAsesor.aspx.cs" Inherits="EnglishForLife12.PerfilAsesor" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAsesorTutorias.aspx.cs" Inherits="EnglishForLife12.PerfilAsesorTutorias" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -24,32 +23,29 @@
         </div>
         <div class="derechaperfil">
             <div class="contenedorPerfil">
-                <div class="iconos">
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/material.png" />
-                            <h2>Material</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/talleres.png" />
-                            <h2>Talleres</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/practicas.png" />
-                            <h2>Practicas</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/Asesoria.png" />
-                            <h2>Asesorias Programadas</h2>
-                        </a>
-                    </div>
-                </div>
+                <h3 style="text-align: center;">Historial de Cursos</h3>
+                <table style="width: 90%; margin: auto">
+                    <tr>
+                        <th>Curso</th>
+                        <th>Tema</th>
+                        <th>Fecha</th>
+                    </tr>
+                    <tr>
+                        <td>Inglés II</td>
+                        <td>Past Simple</td>
+                        <td>01/06/2016 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>inglés II</td>
+                        <td>Present Simple</td>
+                        <td>08/07/2016 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Inglés III</td>
+                        <td>Second Condicional</td>
+                        <td>19/02/2017 17:00</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="sostiene">asdasdad</div>

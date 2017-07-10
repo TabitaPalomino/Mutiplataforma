@@ -36,15 +36,6 @@
                                      <a href="LoginMaestro.aspx">Profesor</a>
                                  </div>
                         </div>
-
-                    <div id="contenedor3">
-                        <div class="contenidotitulo">
-                            <p id="beneficioss">Enterate de los beneficios a un click</p>
-                        </div>
-                        <div class="cuadro1">
-                            <a href="Beneficios.aspx" >Beneficios</a>
-                        </div>
-                    </div>
             </div>
     </section>
         <br />

@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfildeAlumno.aspx.cs" Inherits="EnglishForLife12.PerfildeAlumno2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAlumnoCursoActual.aspx.cs" Inherits="EnglishForLife12.PerfilAlumnoCursoActual" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -24,26 +25,13 @@
         </div>
         <div class="derechaperfil">
             <div class="contenedorPerfil">
-                <div class="iconos">
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/material.png" />
-                            <h2>Material</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/talleres.png" />
-                            <h2>Ejercicios propuestos</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="PANuevaAsesoria.aspx">
-                            <img src="img/Asesoria.png" />
-                            <h2>Solicitar Nueva Asesoria</h2>
-                        </a>
-                    </div>
-                </div>
+                <h3 style="text-align: center;">Curso Actual</h3>
+                <h4 style="margin-left: 10px;">Actualmente matriculado en:</h4>
+                <img style="width: 150px" src="../img/ingles3.png" />
+                <h4 style="margin-left: 10px;">Asesor:</h4>
+                <p class="pEditar">Felipe Quispe</p>
+                <h4 style="margin-left: 10px;">Total de horas de asesoria:</h4>
+                <p class="pEditar">3:00h</p>
             </div>
         </div>
         <div class="sostiene">asdasdad</div>
@@ -51,3 +39,5 @@
     </div>
     <div class="sostiene">asdasdad</div>
 </asp:Content>
+
+

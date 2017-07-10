@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAsesor.aspx.cs" Inherits="EnglishForLife12.PerfilAsesor" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestraAlumno.Master" AutoEventWireup="true" CodeBehind="PerfilAsesorCursoActual.aspx.cs" Inherits="EnglishForLife12.PerfilAsesorCursoActual" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -24,33 +24,14 @@
         </div>
         <div class="derechaperfil">
             <div class="contenedorPerfil">
-                <div class="iconos">
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/material.png" />
-                            <h2>Material</h2>
-                        </a>
+                        <h3 style="text-align: center;">Curso Actual</h3>
+                        <h4 style="margin-left: 10px;">Actualmente matriculado en:</h4>
+                        <img style="width: 150px" src="../img/ingles3.png" />
+                        <h4 style="margin-left: 10px;">Alumno:</h4>
+                        <p class="pEditar">Luis Castro</p>
+                        <h4 style="margin-left: 10px;">Total de horas de asesoria:</h4>
+                        <p class="pEditar">3:00h</p>
                     </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/talleres.png" />
-                            <h2>Talleres</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/practicas.png" />
-                            <h2>Practicas</h2>
-                        </a>
-                    </div>
-                    <div class="iconoperfil">
-                        <a href="#">
-                            <img src="img/Asesoria.png" />
-                            <h2>Asesorias Programadas</h2>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="sostiene">asdasdad</div>
 

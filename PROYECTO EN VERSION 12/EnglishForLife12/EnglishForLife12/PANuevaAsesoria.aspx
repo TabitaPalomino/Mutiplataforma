@@ -29,7 +29,7 @@
                 <InsertItemTemplate>
                     <h4>Asesor:</h4>
                     <div class="cuadro1">
-                        <a href="ElegirAsesor2.aspx">Elegir Asesor</a>
+                        <a href="ElegirAsesor.aspx">Elegir Asesor</a>
                     </div>
                     <asp:DataList ID="DataList9" runat="server" DataKeyField="Id" DataSourceID="ProfeSmash">
                         <ItemTemplate>
